@@ -332,6 +332,7 @@ patch=1,EE,1032EF1E,extended,00000000
 //                Worlds
 //------------------------------------
 //----- Data Twilight -----
+patch=1,EE,E1240002,extended,0032BAE0
 //Chests
 patch=1,EE,11CE016E,extended,0000019B // Station of Serenity, Potion is now Item Boost
 patch=1,EE,11CE017A,extended,00000002 // Station of Calling, Potion is now Hi-Potion
@@ -450,11 +451,6 @@ patch=1,EE,11C55C94,extended,00000135// Assassin Wave2
 patch=1,EE,11C55CD4,extended,00000135// Assassin Wave2
 
 //Boss Replacement
-//Axel I
-//patch=1,EE,E0030502,extended,0032BAE0
-//patch=1,EE,E0020057,extended,0032BAE4
-//patch=1,EE,E0010057,extended,0032BAE8
-//patch=1,EE,11C26ED8,extended,00000051// Axel 2
 //Axel II
 patch=1,EE,E0061402,extended,0032BAE0
 patch=1,EE,E0050089,extended,0032BAE4
@@ -466,6 +462,7 @@ patch=1,EE,21C6C4EC,extended,00000190
 
 
 //----- Space Paranoids -----
+patch=1,EE,E1220011,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFCEE,extended,00000112 // Pit Cell, Pit Cell Area Map is now Drive Recovery
 patch=1,EE,11CDFCFA,extended,00000225 // Pit Cell, Mythril Crystal is now Precious Mushroom
@@ -606,6 +603,7 @@ patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
 
 //----- Disney Castle -----
+patch=1,EE,E118000C,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF9B2,extended,00000052 // Courtyard, Mythril Shard is now Guard
 patch=1,EE,11CDF9BE,extended,00000001 // Courtyard, Star Recipe is now Potion
@@ -717,6 +715,7 @@ patch=1,EE,21A9BF2C,extended,00FFFFFF // "shiny" terra
 
 
 //----- Timeless River -----
+patch=1,EE,E110000D,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF95E,extended,00000179 // Cornerstone Hill, Cornerstone Hill Map is now Orichalcum
 patch=1,EE,11CDF96A,extended,0000022F // Cornerstone Hill, Frost Shard is now Flash Step
@@ -993,6 +992,7 @@ patch=1,EE,01CA298C,extended,00000003 // Revert Volcanic Lord into boss
 
 
 //----- Port Royal -----
+patch=1,EE,E12A0010,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFE3E,extended,00000199 // Rampart, Naval Map is now Blizzard Boost
 patch=1,EE,11CDFE4A,extended,0000000A // Rampart, Mythril Stone is now Technician's Ring
@@ -1353,6 +1353,7 @@ patch=1,EE,11C5BD78,extended,00000138// Dancer
 
 
 //----- Hollow Bastion -----
+patch=1,EE,E12D0004,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFF3A,extended,00000113 // Borough, Drive Recovery is now High Drive Recovery
 patch=1,EE,11CDFF46,extended,00000057 // Borough, AP Boost is now Magnet
@@ -1675,6 +1676,7 @@ patch=1,EE,11C24D24,extended,00000022//
 
 
 //----- Cavern of Remembrance -----
+patch=1,EE,E11B0004,extended,0032BAE0
 //Chests
 patch=1,EE,11CE04E6,extended,00000108 // Depths, AP Boost is now Slide Dash
 patch=1,EE,11CE04F2,extended,00000184 // Depths, Power Crystal is now Auto Final
@@ -1711,6 +1713,7 @@ patch=1,EE,21D11248,extended,00070007 // Replacement Reward #2:Mega-Elixir Repla
 
 
 //----- Twilight Town -----
+patch=1,EE,E1380002,extended,0032BAE0
 //Chests
 patch=1,EE,11CE022E,extended,000000A2 // The Old Mansion, Potion is now Combo Plus
 patch=1,EE,11CE023A,extended,000000A3 // The Old Mansion, Mythril Shard is now Air Combo Plus
@@ -1879,6 +1882,7 @@ patch=1,EE,11C50D90,extended,0000013E// Dusk
 
 
 //----- Pride Lands -----
+patch=1,EE,E128000A,extended,0032BAE0
 //Chests
 patch=1,EE,11CE0042,extended,00000017 // Gorge, Savannah Map is now Thunder
 patch=1,EE,11CE004E,extended,0000019A // Gorge, Dark Gem is now Thunder Boost
@@ -2100,6 +2104,7 @@ patch=1,EE,01C6C018,extended,00000000
 
 
 //----- Olympus Coliseum -----
+patch=1,EE,E13C0006,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFB02,extended,00000182 // Underworld Entrance, Power Boost is now Auto Wisdom
 patch=1,EE,11CDFB0E,extended,00000006 // Passage, Mythril Shard is now Mega-Ether
@@ -2281,6 +2286,7 @@ patch=1,EE,11C5C0B0,extended,00000051// Axel 2 (Hades)
 
 
 //----- Agrabah -----
+patch=1,EE,E1300007,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF826,extended,0000006B // Agrabah, Dark Shard is now Glide LV2
 patch=1,EE,11CDF832,extended,00000240 // Agrabah, Mythril Shard is now Remembrance Shard
@@ -2494,6 +2500,7 @@ patch=1,EE,11C6BDB4,extended,00000190// Max HP
 patch=1,EE,11C6BDB0,extended,00000190// Current HP
 
 //----- Halloween Town -----
+patch=1,EE,E125000E,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFD96,extended,00000128 // Graveyard, Mythril Shard is now Shadow Anklet
 patch=1,EE,11CDFDA2,extended,0000011A // Graveyard, Serenity Gem is now Dark Gem
@@ -2605,6 +2612,7 @@ patch=1,EE,0035DE20,extended,000001F4
 
 
 //----- Beast's Castle -----
+patch=1,EE,E1260005,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFBF2,extended,00000249 // Courtyard, AP Boost is now Manifest Illusion
 patch=1,EE,11CDFBFE,extended,00000197 // Courtyard, Hi-Potion is now Lucky Lucky
@@ -2773,6 +2781,7 @@ patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
 
 
 //----- Land of Dragons -----
+patch=1,EE,E1230008,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF72A,extended,00000116 // Bamboo Grove, Dark Shard is now Defense Boost
 patch=1,EE,11CDF736,extended,00000149 // Bamboo Grove, Ether is now Power Shard
@@ -3033,6 +3042,7 @@ patch=1,EE,11C6B8E0,extended,000000C8
 
 
 //----- The World That Never Was -----
+patch=1,EE,E12F0012,extended,0032BAE0
 //Chests
 patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
 patch=1,EE,11CE040E,extended,00000003 // Fragment Crossing, Mythril Crystal is now Ether
@@ -3172,6 +3182,7 @@ patch=1,EE,0035DE20,extended,00000097
 
 
 //----- 100 Acre Wood -----
+patch=1,EE,E1180009,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFA12,extended,00000251 // Pooh Bear's House, Hundred Acre Wood Map is now Proof of Connection
 patch=1,EE,11CDFA1E,extended,00000252 // Pooh Bear's House, AP Boost is now Proof of Nonexistence
@@ -3202,6 +3213,7 @@ patch=1,EE,11CE092A,extended,00000217 // Orichalcum+, Orichalcum+ is now Munny P
 
 
 //----- Atlantica -----
+patch=1,EE,E104000B,extended,0032BAE0
 // Popups
 patch=1,EE,11CE0846,extended,00000116 // Undersea Kingdom Map, Undersea Kingdom Map is now Defense Boost
 patch=1,EE,11CE08E2,extended,00000257 // Mysterious Abyss, Mysterious Abyss is now Executive's Ring
