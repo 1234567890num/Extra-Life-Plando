@@ -3371,12 +3371,12 @@ patch=1,EE,21C6BDB4,extended,00000870
 //Shadow Stalker Fight
 patch=1,EE,E0030505,extended,0032BAE0
 patch=1,EE,E002004E,extended,0032BAE8
-patch=1,EE,2032F078,extended,12128300// Sora and Beast only
+patch=1,EE,2032F078,extended,12120300// Sora and Beast only
 patch=1,EE,11C5A360,extended,00000162// Dark Thorn
 //Dark Thorn Fight
 patch=1,EE,E0460505,extended,0032BAE0
 patch=1,EE,E045004F,extended,0032BAE8
-patch=1,EE,2032F078,extended,12128300// Sora and Beast only
+patch=1,EE,2032F078,extended,12120300// Sora and Beast only
 patch=1,EE,11C5A16C,extended,000002CE// Beast (Chandelier)
 patch=1,EE,11C5A4D4,extended,000005F8// Luxord (Dark Thorn)
 patch=1,EE,E00A0000,extended,0032EB00// DOOM CLOCK == 0
@@ -3553,8 +3553,9 @@ patch=1,EE,11C5B39C,extended,0000000D
 patch=1,EE,11C5B3DC,extended,0000000D
 patch=1,EE,11C5B41C,extended,00000966 // Mad Ride
 // Mission 2
-patch=1,EE,E00E0208,extended,0032BAE0
-patch=1,EE,E00D0050,extended,0032BAE8
+patch=1,EE,E00F0208,extended,0032BAE0
+patch=1,EE,E00E0050,extended,0032BAE8
+patch=1,EE,2032F084,extended,12128300 // Sora and Ping Only
 patch=1,EE,21D48FA4,extended,42C80000 // Lock Morale to 100%
 patch=1,EE,11C5B760,extended,00000004 // Hook Bat
 patch=1,EE,11C5B7A0,extended,00000004 // Hook Bat
@@ -4062,8 +4063,8 @@ patch=1,EE,E0071412,extended,0032BAE0
 patch=1,EE,E006004A,extended,0032BAE8
 patch=1,EE,11C5590C,extended,000008B6// Sephiroth (Final Xemnas with HP Bar)
 patch=1,EE,11C558CC,extended,00000022// Dresser   (Final Xemnas No HP Bar)
-patch=1,EE,21C6C690,extended,19191919// Riku's Stats
-patch=1,EE,21C6C694,extended,00321919
+patch=1,EE,21C6C428,extended,32323264
+patch=1,EE,21C6C42C,extended,00646432
 patch=1,EE,E001006A,extended,0035DE20// Sephiroth's Cutscene Skip
 patch=1,EE,0035DE20,extended,00000097
 
