@@ -9618,7 +9618,7 @@ patch=1,EE,E0042002,extended,0032BAE0
 patch=1,EE,E0030001,extended,0032BAE4
 patch=1,EE,E0020001,extended,0032BAE6
 patch=1,EE,E0010001,extended,0032BAE8
-patch=1,EE,11C6C901,extended,00000505
+patch=1,EE,11C6C901,extended,00000606
 //Post Game Unlocked
 patch=1,EE,E0031312,extended,0032BAE0
 patch=1,EE,E0021E7F,extended,0032DA03
