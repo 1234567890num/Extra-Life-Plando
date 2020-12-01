@@ -1688,7 +1688,7 @@ patch=1,EE,11CDFF52,extended,00000111 // Borough, Hi-Potion is now Retaliating S
 patch=1,EE,11CDFF5E,extended,00000166 // Borough, Mythril Shard is now Serenity Stone
 patch=1,EE,11CDFF6A,extended,00000079 // Borough, Dark Shard is now Cave of Wonders Map
 patch=1,EE,11CDFF76,extended,0000024A // Postern, Castle Perimeter Map is now Dark Remembrance Map
-patch=1,EE,11CDFF82,extended,0000014E // Postern, Mythril Gem is now Lucid Stone
+patch=1,EE,11CDFF82,extended,000000A0 // Postern, Mythril Gem is now Feather Charm
 patch=1,EE,11CDFF8E,extended,000001ED // Postern, AP Boost is now Decisive Pumpkin
 patch=1,EE,11CDFF9A,extended,0000018A // Corridors, Mythril Stone is now Negative Combo
 patch=1,EE,11CDFFA6,extended,0000005F // Corridors, Mythril Crystal is now High Jump LV2
@@ -1702,7 +1702,7 @@ patch=1,EE,11CDFFFA,extended,0000019F // Crystal Fissure, Torn Pages is now Seco
 patch=1,EE,11CE0006,extended,000000AE // Crystal Fissure, The Great Maw Map is now Fira Bangle
 patch=1,EE,11CE0012,extended,00000006 // Crystal Fissure, Energy Crystal is now Mega-Ether
 patch=1,EE,11CE001E,extended,0000001C // Crystal Fissure, AP Boost is now Orichalcum Ring
-patch=1,EE,11CE002A,extended,000000A0 // Postern, Gull Wing is now Feather Charm
+patch=1,EE,11CE002A,extended,0000014E // Postern, Gull Wing is now Lucid Stone
 patch=1,EE,11CE0036,extended,00000004 // Heartless Manufactory, Cosmic Chain is now Elixir
 
 //Popups
@@ -2029,7 +2029,7 @@ patch=1,EE,11C24D24,extended,00000022//
 patch=1,EE,E01BFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CE04E6,extended,00000108 // Depths, AP Boost is now Slide Dash
-patch=1,EE,11CE04F2,extended,00000184 // Depths, Power Crystal is now Auto Final
+patch=1,EE,11CE04F2,extended,0000001D // Depths, Power Crystal is now Final Form
 patch=1,EE,11CE04FE,extended,00000117 // Depths, Frost Crystal is now AP Boost
 patch=1,EE,11CE050A,extended,0000010D // Depths, Manifest Illusion is now Aerial Sweep
 patch=1,EE,11CE0516,extended,000001F2 // Depths, AP Boost is now Bond of Flame
@@ -2085,7 +2085,7 @@ patch=1,EE,11CE02EE,extended,00000156 // The Tower, Hi-Potion is now Twilight St
 patch=1,EE,11CE02FA,extended,00000157 // The Tower, Ether is now Twilight Gem
 patch=1,EE,11CE0306,extended,00000157 // Tower Entryway, Ether is now Twilight Gem
 patch=1,EE,11CE0312,extended,00000155 // Tower Entryway, Mythril Shard is now Twilight Shard
-patch=1,EE,11CE031E,extended,0000001D // Sorcerer's Loft, Tower Map is now Final Form
+patch=1,EE,11CE031E,extended,00000184 // Sorcerer's Loft, Tower Map is now Auto Final
 patch=1,EE,11CE032A,extended,00000156 // Tower Wardrobe, Mythril Stone is now Twilight Stone
 patch=1,EE,11CE0336,extended,00000157 // Underground Concourse, Mythril Gem is now Twilight Gem
 patch=1,EE,11CE0342,extended,00000117 // Underground Concourse, Orichalcum is now AP Boost
