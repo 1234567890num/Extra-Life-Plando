@@ -364,11 +364,11 @@ patch=1,EE,11D10FA2,extended,0000000A // MP:0 HP:10
 patch=1,EE,21D10FA4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10FA8,extended,0000021B // Replacement Reward #2: Replacement Reward #1:Combo Master
 // Twilight Thorn
-patch=1,EE,11D10CB2,extended,00000000 // MP:0 HP:0
+patch=1,EE,11D10CB2,extended,0000000A // MP:0 HP:10
 patch=1,EE,21D10CB4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10CB8,extended,00000169 // Replacement Reward #2: Replacement Reward #1:Orichalcum+
 // Axel I
-patch=1,EE,11D11272,extended,00000505 // MP:5 HP:5
+patch=1,EE,11D11272,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D11274,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D11278,extended,00000000 // Replacement Reward #2: Replacement Reward #1:none
 // Axel II
@@ -546,7 +546,7 @@ patch=1,EE,11CE0A9E,extended,00000084 // Larxene (Data), Lost Illusion is now Sh
 
 //Bonus Rewards
 // Dataspace Computers
-patch=1,EE,11D10E12,extended,00000004 // MP:0 HP:4
+patch=1,EE,11D10E12,extended,0000000A // MP:0 HP:10
 patch=1,EE,21D10E14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10E18,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
 // Hostile Program
@@ -738,13 +738,13 @@ patch=1,EE,11CE0AAA,extended,00000040 // Marluxia (Data), Lost Illusion is now F
 
 //Bonus Rewards
 // Escort Queen Minnie
-patch=1,EE,11D10D22,extended,00000A05 // MP:10 HP:5
+patch=1,EE,11D10D22,extended,00000A04 // MP:10 HP:4
 patch=1,EE,21D10D24,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10D28,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
 //Marluxia (Absent Silhouette)
-patch=1,EE,11D11182,extended,00000000
-patch=1,EE,21D11184,extended,01000001 // Armor Slot:+1, Drive Gauge:+1
-patch=1,EE,21D11188,extended,00000000
+patch=1,EE,11D11182,extended,00000000 // MP:0 HP:0
+patch=1,EE,21D11184,extended,01000001 // Armor Slot:+1 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+1
+patch=1,EE,21D11188,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
 //Lingering Will
 patch=1,EE,11D111F2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D111F4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -847,7 +847,7 @@ patch=1,EE,11CE0762,extended,000000EA // Wisdom Form, Wisdom Form is now Secret 
 
 //Bonus Rewards
 // Pete (Steamboat Fight)
-patch=1,EE,11D10982,extended,00000005 // MP:0 HP:5
+patch=1,EE,11D10982,extended,00000006 // MP:0 HP:6
 patch=1,EE,21D10984,extended,00000100 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+1 Drive Gauge:+0
 patch=1,EE,21D10988,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
 // Pete (Timeless River)
@@ -1369,7 +1369,7 @@ patch=1,EE,21D11028,extended,0185017F // Replacement Reward #2:Auto Summon Repla
 // Grim Reaper II
 patch=1,EE,11D10AE2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10AE4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10AE8,extended,000001A6 // Replacement Reward #2: Replacement Reward #1:MP Hastega
+patch=1,EE,21D10AE8,extended,018B01A6 // Replacement Reward #2:Berserk Charge Replacement Reward #1:MP Hastega
 
 //Enemy Replacement
 //Harbor Pirates (1st Visit; Part I)
@@ -2267,7 +2267,7 @@ patch=1,EE,11CE0AF2,extended,0000009D // Saix (Data), Defense Boost is now Grand
 
 //Bonus Rewards
 // Hyenas I
-patch=1,EE,11D10EA2,extended,00000000 // MP:0 HP:0
+patch=1,EE,11D10EA2,extended,00000006 // MP:0 HP:6
 patch=1,EE,21D10EA4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10EA8,extended,00000004 // Replacement Reward #2: Replacement Reward #1:Elixir
 // Scar
@@ -2275,7 +2275,7 @@ patch=1,EE,11D10BD2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10BD4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10BD8,extended,000000AD // Replacement Reward #2: Replacement Reward #1:Fire Bangle
 // Hyenas II
-patch=1,EE,11D10ED2,extended,00000000 // MP:0 HP:0
+patch=1,EE,11D10ED2,extended,00000004 // MP:0 HP:4
 patch=1,EE,21D10ED4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10ED8,extended,00000004 // Replacement Reward #2: Replacement Reward #1:Elixir
 // Groundshaker
@@ -2549,7 +2549,7 @@ patch=1,EE,11CE0996,extended,00000007 // Hades Cup, Hades Cup Trophy is now Mega
 
 //Bonus Rewards
 // Cerberus
-patch=1,EE,11D10802,extended,00000006 // MP:0 HP:6
+patch=1,EE,11D10802,extended,0000000A // MP:0 HP:10
 patch=1,EE,21D10804,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10808,extended,00000016 // Replacement Reward #2: Replacement Reward #1:Blizzard
 // Phil's Training (Story)
