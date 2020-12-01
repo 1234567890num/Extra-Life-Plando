@@ -6,3 +6,4 @@ None! We should be ready for release!
 
 - Test if Battle Levels' difficulty is fine <sub>it isn't :(</sub>
 - Test the new EXP curve
+- Improve the RNG
