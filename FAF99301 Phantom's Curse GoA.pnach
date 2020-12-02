@@ -9502,7 +9502,7 @@ patch=1,EE,2032BAE0,extended,00011A04
 patch=1,EE,2032BAE4,extended,00000000
 patch=1,EE,1032BAE8,extended,00000002
 //Unlock 3rd Song
-patch=1,EE,E0040005,extended,01C6C902
+patch=1,EE,E0040004,extended,31C6C902
 patch=1,EE,E0030006,extended,0032CBD0
 patch=1,EE,2032D924,extended,005FC0FC
 patch=1,EE,0032CBC4,extended,00000010
