@@ -1,8 +1,12 @@
 -This Plando was designed with playing on Crit in mind.
 
--Most Data fights are not required.
+-Auto Drive skills can be used to unlock Drive forms early.
 
--A vengeful keyblade wielder hold a reward that would help immensely on your quest.
+-Armor and Accessories have abilities. Abilities are listed in the item description.
+
+-The world hidden within the darkness will never be devoured.
+
+-Data fights and Transport to Remembrance are not required, but they give out a very nice reward.
 
 -Spending time with charming friends fills your pockets with surprise benefits.
 
@@ -10,8 +14,10 @@
 
 -In addition to above, most magics include an extra copy to compensate for the stronger curse.
 
--Auto Drive skills can be used to unlock Drive forms early.
+-You are not the only person journeying forth with the memories of past adventures.
 
 -A special charm can be found after defeating a scholarly spirit that your friend from the dark had encountered.
 
--If you are lacking strength, defeating the one who commands Nothing will grant you the special charm if you can't locate the previously mentioned spirit.
+-The special charm can also be found after defeating the one who commands Nothing.
+
+-That special charm will help immensely if you are lacking strength.
