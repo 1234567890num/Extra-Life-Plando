@@ -4111,7 +4111,7 @@ patch=1,EE,E004FFFF,extended,0032BAE0
 patch=1,EE,11CE0846,extended,000001F7 // Undersea Kingdom Map, Undersea Kingdom Map is now Save The Queen+
 patch=1,EE,11CE08E2,extended,000001F8 // Mysterious Abyss, Mysterious Abyss is now Save The King+
 patch=1,EE,11CE08EE,extended,00000257 // Blizzard, Blizzard is now Executive's Ring
-patch=1,EE,11CE08FA,extended,00000190 // Orichalcum+, Orichalcum+ is now Ribbon
+patch=1,EE,11CE08FA,extended,00000130 // Orichalcum+, Orichalcum+ is now Ribbon
 
 
 //-----------------------------------------
