@@ -1295,6 +1295,11 @@ patch=1,EE,11C6C4E8,extended,000005FF // Yuffie Current
 patch=1,EE,11C6C4EC,extended,000005FF // Yuffie Max
 patch=1,EE,11C6C670,extended,00000023 // Yuffie STR
 patch=1,EE,11C6C674,extended,0000000E // Yuffie DEF
+// NPC Petes
+patch=1,EE,E003030D,extended,0032BAE0
+patch=1,EE,E0020001,extended,0032BAE8
+patch=1,EE,11C562A4,extended,0000048F // Past Pete
+patch=1,EE,11C56220,extended,00000022 // Present Pete
 // Volcanic Lord Marker Cleanup
 patch=1,EE,E0030004,extended,01C6C018
 patch=1,EE,E102000D,extended,0032BAE0
