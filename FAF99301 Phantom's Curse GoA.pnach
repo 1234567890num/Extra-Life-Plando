@@ -2632,8 +2632,8 @@ patch=1,EE,E0020A06,extended,0032BAE0
 patch=1,EE,11C550D4,extended,00000974
 patch=1,EE,11C55148,extended,00000974
 //Zexion's Absent Silhouette Defeated
-patch=1,EE,E0022204,extended,0032BAE0
-patch=1,EE,E001007D,extended,0032BAE8
+patch=1,EE,E0020A06,extended,0032BAE0
+patch=1,EE,E0010005,extended,0032BAE8
 patch=1,EE,0032C44A,extended,0000000F
 //Data Zexion Spawned
 patch=1,EE,E0062204,extended,0032BAE0
@@ -9510,7 +9510,7 @@ patch=1,EE,2032BAE0,extended,00011A04
 patch=1,EE,2032BAE4,extended,00000000
 patch=1,EE,1032BAE8,extended,00000002
 //Unlock 3rd Song
-patch=1,EE,E0040005,extended,01C6C902
+patch=1,EE,E0040004,extended,31C6C902
 patch=1,EE,E0030006,extended,0032CBD0
 patch=1,EE,2032D924,extended,005FC0FC
 patch=1,EE,0032CBC4,extended,00000010
@@ -9626,164 +9626,7 @@ patch=1,EE,E0042002,extended,0032BAE0
 patch=1,EE,E0030001,extended,0032BAE4
 patch=1,EE,E0020001,extended,0032BAE6
 patch=1,EE,E0010001,extended,0032BAE8
-patch=1,EE,11C6C901,extended,00000505
-//Battle Level - Simulated Twilight Town (Day 1)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00040001
-//Battle Level - Simulated Twilight Town (Day 2)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00040001
-//Battle Level - Simulated Twilight Town (Day 3)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020302,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00040001
-//Battle Level - Simulated Twilight Town (Day 4)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020402,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00140001
-//Battle Level - Simulated Twilight Town (Day 5)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020502,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00140001
-//Battle Level - Simulated Twilight Town (Day 6)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020602,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00140401
-//Battle Level - Twilight Town (1st Visit)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020702,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00140C01
-//Battle Level - Mysterious Tower (1st Visit)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020802,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141C01
-//Battle Level - Twilight Town (2nd Visit)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020902,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00143D01
-//Battle Level - Twilight Town (3rd Visit)
-patch=1,EE,E0030200,extended,0032BADF
-patch=1,EE,E0020A02,extended,0032FB24
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00157D79
-//Battle Level - Twilight Town (Special Event)
-patch=1,EE,E0022102,extended,0032BAE0
-patch=1,EE,E0010F02,extended,0032FB24
-patch=1,EE,2032F254,extended,00060000
-//Battle Level - Hollow Bastion (1st Visit)
-patch=1,EE,E0030400,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB2C
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141C01
-//Battle Level - Hollow Bastion (3rd Visit)
-patch=1,EE,E0030400,extended,0032BADF
-patch=1,EE,E0020403,extended,0032FB2C
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D09
-//Battle Level - Hollow Bastion (End of 3rd Visit)
-patch=1,EE,E0030400,extended,0032BADF
-patch=1,EE,E0020204,extended,0032FB2D
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,0015FD79
-//Battle Level - Disney Castle (1st Visit)
-patch=1,EE,E0020C00,extended,0032BADF
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141D01
-//Battle Level - The Land of Dragons (1st Visit)
-patch=1,EE,E0030800,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB3C
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141C01
-//Battle Level - The Land of Dragons (2nd Visit)
-patch=1,EE,E0030800,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB3C
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D19
-//Battle Level - Beast's Castle (1st Visit)
-patch=1,EE,E0030500,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB30
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141C01
-//Battle Level - Beast's Castle (2nd Visit)
-patch=1,EE,E0030500,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB30
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D19
-//Battle Level - Olympus Coliseum (1st Visit)
-patch=1,EE,E0030600,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB34
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141C01
-//Battle Level - Olympus Coliseum (2nd Visit)
-patch=1,EE,E0030600,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB34
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D19
-//Battle Level - Port Royal (1st Visit)
-patch=1,EE,E0031000,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB5C
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141C01
-//Battle Level - Port Royal (2nd Visit)
-patch=1,EE,E0031000,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB5C
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D19
-//Battle Level - Agrabah (1st Visit)
-patch=1,EE,E0030700,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB38
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141D01
-//Battle Level - Agrabah (2nd Visit)
-patch=1,EE,E0030700,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB38
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D19
-//Battle Level - Halloween Town (1st Visit)
-patch=1,EE,E0030E00,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB54
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141D01
-//Battle Level - Halloween Town (2nd Visit)
-patch=1,EE,E0030E00,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB54
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D19
-//Battle Level - Pride Lands (1st Visit)
-patch=1,EE,E0030A00,extended,0032BADF
-patch=1,EE,E0020102,extended,0032FB44
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00141D01
-//Battle Level - Pride Lands (2nd Visit)
-patch=1,EE,E0030A00,extended,0032BADF
-patch=1,EE,E0020202,extended,0032FB44
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,0015FDF9
-//Battle Level - Space Paranoids (1st Visit)
-patch=1,EE,E0031100,extended,0032BADF
-patch=1,EE,E0020100,extended,0032FB60
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00147D01
-//Battle Level - Space Paranoids (2nd Visit)
-patch=1,EE,E0031100,extended,0032BADF
-patch=1,EE,E0020200,extended,0032FB60
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,0015FD79
-//Battle Level - The World That Never Was
-patch=1,EE,E0021200,extended,0032BADF
-patch=1,EE,E1010000,extended,0032DA10
-patch=1,EE,2032F254,extended,00157D79
+patch=1,EE,11C6C901,extended,00000606
 //Post Game Unlocked
 patch=1,EE,E0031312,extended,0032BAE0
 patch=1,EE,E0021E7F,extended,0032DA03
