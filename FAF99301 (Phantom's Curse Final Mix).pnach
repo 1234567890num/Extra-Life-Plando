@@ -1194,9 +1194,10 @@ patch=1,EE,11C56568,extended,00000338
 patch=1,EE,11C565A8,extended,00000338
 patch=1,EE,11C565E8,extended,00000338
 // Boat Pete
-patch=1,EE,E065020D,extended,0032BAE0
-patch=1,EE,E0640034,extended,0032BAE8
+patch=1,EE,E066020D,extended,0032BAE0
+patch=1,EE,E0650034,extended,0032BAE8
 patch=1,EE,2032F098,extended,12121200 // Solo Fight
+patch=1,EE,0032F055,extended,00000000 // Remove Summons
 patch=1,EE,00347D34,extended,000000A4 // Olympus Music
 patch=1,EE,01CBAE6C,extended,00000004 // Yuffie NOT a Boss
 patch=1,EE,01CBAE0C,extended,00000004 // Tifa NOT a Boss
@@ -1307,10 +1308,11 @@ patch=1,EE,E102000D,extended,0032BAE0
 patch=1,EE,E0010035,extended,1032BAE8
 patch=1,EE,01CA298C,extended,00000003
 // Final Pete
-patch=1,EE,E00C030D,extended,0032BAE0
-patch=1,EE,E00B0035,extended,0032BAE8
+patch=1,EE,E00D030D,extended,0032BAE0
+patch=1,EE,E00C0035,extended,0032BAE8
 patch=1,EE,00347D34,extended,00000054 // Music
 patch=1,EE,2032F098,extended,12121200 // Solo Fight
+patch=1,EE,0032F055,extended,00000000 // Remove Summons
 patch=1,EE,01CA298C,extended,00000004 // Volcanic Lord NOT a Boss
 patch=1,EE,11C55BF0,extended,0000040B // Volcanic Lord
 patch=1,EE,21C6C428,extended,0A96000A // Volcanic Lord Resists 1 (90% Thunder/Physical, -50% Blizzard, 100% Fire)
@@ -3305,9 +3307,10 @@ patch=1,EE,E1020005,extended,0032BAE0
 patch=1,EE,E0010045,extended,1032BAE8
 patch=1,EE,01C9902C,extended,00000004
 //Beast (Boss)
-patch=1,EE,E0430305,extended,0032BAE0
-patch=1,EE,E0420045,extended,0032BAE8
+patch=1,EE,E0200305,extended,0032BAE0
+patch=1,EE,E01F0045,extended,0032BAE8
 patch=1,EE,2032F078,extended,12121200// Solo Fight
+patch=1,EE,0032F055,extended,00000000// Remove Summons
 patch=1,EE,01C9902C,extended,00000003// Sorcerer Boss Marker
 patch=1,EE,11C4CBA0,extended,0000013C// Sorcerer (Beast)
 patch=1,EE,11C4CBE0,extended,0000031B// Demyx (Cogsworth)
@@ -3317,62 +3320,26 @@ patch=1,EE,E0090000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E002006C,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000003CC
 patch=1,EE,21C6C284,extended,000003CC
-patch=1,EE,E002006C,extended,01C6C01C// Sorcerer's HP Slot 4
-patch=1,EE,21C6C018,extended,000003CC
-patch=1,EE,21C6C01C,extended,000003CC
-patch=1,EE,E002006C,extended,01C6BDB4// Sorcerer's HP Slot 5
-patch=1,EE,21C6BDB0,extended,000003CC
-patch=1,EE,21C6BDB4,extended,000003CC
 patch=1,EE,E0090001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E0020087,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000004BF
 patch=1,EE,21C6C284,extended,000004BF
-patch=1,EE,E0020087,extended,01C6C01C// Sorcerer's HP Slot 4
-patch=1,EE,21C6C018,extended,000004BF
-patch=1,EE,21C6C01C,extended,000004BF
-patch=1,EE,E0020087,extended,01C6BDB4// Sorcerer's HP Slot 5
-patch=1,EE,21C6BDB0,extended,000004BF
-patch=1,EE,21C6BDB4,extended,000004BF
 patch=1,EE,E0090002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E00200A0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000005A0
 patch=1,EE,21C6C284,extended,000005A0
-patch=1,EE,E00200A0,extended,01C6C01C// Sorcerer's HP Slot 4
-patch=1,EE,21C6C018,extended,000005A0
-patch=1,EE,21C6C01C,extended,000005A0
-patch=1,EE,E00200A0,extended,01C6BDB4// Sorcerer's HP Slot 5
-patch=1,EE,21C6BDB0,extended,000005A0
-patch=1,EE,21C6BDB4,extended,000005A0
 patch=1,EE,E0090003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E00200BC,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E00200BC,extended,01C6C01C// Sorcerer's HP Slot 4
-patch=1,EE,21C6C018,extended,0000069C
-patch=1,EE,21C6C01C,extended,0000069C
-patch=1,EE,E00200BC,extended,01C6BDB4// Sorcerer's HP Slot 5
-patch=1,EE,21C6BDB0,extended,0000069C
-patch=1,EE,21C6BDB4,extended,0000069C
 patch=1,EE,E0090004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00200D5,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E00200D5,extended,01C6C01C// Sorcerer's HP Slot 4
-patch=1,EE,21C6C018,extended,0000077D
-patch=1,EE,21C6C01C,extended,0000077D
-patch=1,EE,E00200D5,extended,01C6BDB4// Sorcerer's HP Slot 5
-patch=1,EE,21C6BDB0,extended,0000077D
-patch=1,EE,21C6BDB4,extended,0000077D
 patch=1,EE,E0090005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E00200F0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,00000870
 patch=1,EE,21C6C284,extended,00000870
-patch=1,EE,E00200F0,extended,01C6C01C// Sorcerer's HP Slot 4
-patch=1,EE,21C6C018,extended,00000870
-patch=1,EE,21C6C01C,extended,00000870
-patch=1,EE,E00200F0,extended,01C6BDB4// Sorcerer's HP Slot 5
-patch=1,EE,21C6BDB0,extended,00000870
-patch=1,EE,21C6BDB4,extended,00000870
 //Shadow Stalker Fight
 patch=1,EE,E0030505,extended,0032BAE0
 patch=1,EE,E002004E,extended,0032BAE8
@@ -3450,23 +3417,17 @@ patch=1,EE,21C6C428,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
-//Xaldin->Riku Cleanup
-patch=1,EE,E00B0009,extended,01CBCE4C// If Roxas is Partner
-patch=1,EE,E1050005,extended,0032BAE0// If in Beast's Castle
-patch=1,EE,E0040052,extended,1032BAE8// Not in fight (continuing from a loss)
-patch=1,EE,2032F078,extended,02010300// Restore Party
-patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
-patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
-patch=1,EE,01CBCE4C,extended,00000003// Roxas is Boss
-patch=1,EE,E1040005,extended,1032BAE0// Not in Beast's Castle (after winning)
+//Xaldin->Riku Party Cleanup
+patch=1,EE,E0040009,extended,01CBCE4C// If Roxas is Partner
 patch=1,EE,2032F078,extended,02010300// Restore Party
 patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
 patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
 patch=1,EE,01CBCE4C,extended,00000003// Roxas is Boss
 // Xaldin (Normal)
-patch=1,EE,E0090F05,extended,0032BAE0
-patch=1,EE,E0080052,extended,0032BAE8
+patch=1,EE,E00A0F05,extended,0032BAE0
+patch=1,EE,E0090052,extended,0032BAE8
 patch=1,EE,2032F078,extended,12020100// Sora Donald Goofy
+patch=1,EE,0032F055,extended,00000000// Remove Summons
 patch=1,EE,11C5A0A8,extended,0000063C// Riku
 patch=1,EE,11CE0B6A,extended,00000951// Replace Dolan with Roxas
 patch=1,EE,11CE0B6C,extended,00000764// Replace Goffy with Mickey
@@ -3591,9 +3552,10 @@ patch=1,EE,11C49644,extended,00000008
 patch=1,EE,11C49684,extended,00000965 // Iron Hammer
 patch=1,EE,11C496C4,extended,00000008
 // Mountain Trail
-patch=1,EE,E0150308,extended,0032BAE0
-patch=1,EE,E0140047,extended,0032BAE8
+patch=1,EE,E0160308,extended,0032BAE0
+patch=1,EE,E0150047,extended,0032BAE8
 patch=1,EE,2032F084,extended,12121200 // Solo Fight
+patch=1,EE,0032F055,extended,00000000 // Remove Summons
 patch=1,EE,11C58528,extended,0000007B // Tornado Step (Wave 1)
 patch=1,EE,11C58568,extended,0000007B
 patch=1,EE,11C585A8,extended,00000048 // Emerald Blues
@@ -3615,9 +3577,10 @@ patch=1,EE,11C58C7C,extended,0000007D
 patch=1,EE,11C58CBC,extended,0000007D
 // Village Cave (Most of the Shadows aren't changed)
 // Can crash, but you really need to try for that to happen
-patch=1,EE,E0110508,extended,0032BAE0
-patch=1,EE,E0100048,extended,0032BAE8
+patch=1,EE,E0120508,extended,0032BAE0
+patch=1,EE,E0110048,extended,0032BAE8
 patch=1,EE,2032F084,extended,12121200 // Solo Fight
+patch=1,EE,0032F055,extended,00000000 // Remove Summons
 patch=1,EE,11C5791C,extended,000008D0 // Vivi (1st Wave)
 patch=1,EE,11C5793C,extended,00000002 // Clone
 patch=1,EE,11C579DC,extended,000008D0 // Vivi (1st Wave)
@@ -4007,9 +3970,10 @@ patch=1,EE,21D11228,extended,00000250 // Replacement Reward #2: Replacement Rewa
 
 //Enemy Replacement
 //The World of Nothing (Energy Core) Fight
-patch=1,EE,E0141912,extended,0032BAE0
-patch=1,EE,E0130046,extended,0032BAE8
+patch=1,EE,E0151912,extended,0032BAE0
+patch=1,EE,E0140046,extended,0032BAE8
 patch=1,EE,2032F0AC,extended,12121200// Solo Fight
+patch=1,EE,0032F055,extended,00000000// Remove Summons
 patch=1,EE,11C5B890,extended,00000135// Assassin (1st Wave)
 patch=1,EE,11C5B8D0,extended,0000013E// Dusk (1st Wave)
 patch=1,EE,11C5B910,extended,0000013E// Dusk (1st Wave)
