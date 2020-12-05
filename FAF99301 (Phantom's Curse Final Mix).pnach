@@ -2707,15 +2707,14 @@ patch=1,EE,01CBACEC,extended,00000004// Demyx Marker into Enemy
 patch=1,EE,01CA47EC,extended,00000003// Water Clone Marker into Boss
 patch=1,EE,21D48EFC,extended,00000001// 1 Enemy Target
 //Pete Fight (Olympus Coliseum; Part II)
-patch=1,EE,E00B0806,extended,0032BAE0
-patch=1,EE,E00A0074,extended,0032BAE8
-patch=1,EE,2032F07C,extended,12121200// Solo Fight
-patch=1,EE,20349DF4,extended,00001770// Base time == 100 seconds (10 seconds extra)
+patch=1,EE,E00A0806,extended,0032BAE0
+patch=1,EE,E0090074,extended,0032BAE8
+patch=1,EE,20349DF4,extended,00001C20// Base time == 120 seconds (30 seconds extra)
 patch=1,EE,11C4FB08,extended,000005CE// Prison Keeper
 patch=1,EE,11C4FB48,extended,000006C2// Eeyore (Ally)
-patch=1,EE,11C4FBB4,extended,00000170// Gargoyle Warrior (Front-Left)
+patch=1,EE,11C4FBB4,extended,00000003// Rabid Dog (Front-Left)
 patch=1,EE,11C4FBF4,extended,00000003// Rabid Dog (Back-Left)
-patch=1,EE,11C4FC34,extended,00000170// Gargoyle Warrior (Front-Right)
+patch=1,EE,11C4FC34,extended,00000003// Rabid Dog (Front-Right)
 patch=1,EE,11C4FC74,extended,00000003// Rabid Dog (Mid-Right)
 patch=1,EE,11C4FCB4,extended,00000003// Rabid Dog (Mid-Left)
 patch=1,EE,11C4FCF4,extended,00000003// Rabid Dog (Back-Right)
@@ -3524,12 +3523,16 @@ patch=1,EE,21D10904,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Sl
 patch=1,EE,21D10908,extended,01A60058 // Replacement Reward #2:MP Hastega Replacement Reward #1:Reflect
 
 //Enemy Replacement
+// Ping Universal Resist Cleanup
+patch=1,EE,E0030001,extended,01CDF3D2
+patch=1,EE,E0020108,extended,0032BAE0
+patch=1,EE,E0010044,extended,1032BAE8
+patch=1,EE,21CDF3D0,extended,00646464 // Ping 0% Universal Resist
 // Encampment Fight
-patch=1,EE,E00B0108,extended,0032BAE0
-patch=1,EE,E00A0044,extended,0032BAE8
+patch=1,EE,E00C0108,extended,0032BAE0
+patch=1,EE,E00B0044,extended,0032BAE8
 patch=1,EE,21D48FA4,extended,42C80000 // Lock Morale to 100%
-// Can still lose to Morale if it would be completely depleted by a single hit
-// Morning Star RC attack against low level Ping usually results in loss by Morale
+patch=1,EE,21CDF3D0,extended,00016464 // Ping 99% Universal Resist
 patch=1,EE,11C48CD4,extended,00000004 // Hook Bat
 patch=1,EE,11C48D14,extended,00000004
 patch=1,EE,11C48D54,extended,00000004
@@ -3684,9 +3687,9 @@ patch=1,EE,11C98E4C,extended,00000004 // Samurai Marker
 //Shan Yu Fight
 patch=1,EE,E0E50908,extended,0032BAE0
 patch=1,EE,E0E4004B,extended,0032BAE8
-patch=1,EE,E002410F,extended,31D48FA6 // Set Max Morale 9%
-patch=1,EE,E0010000,extended,31D48FA4 // Fun fact: 9 is associated with Emperor of China because it is the largest digit
-patch=1,EE,21D48FA4,extended,41100000 // For similar reason, enemies' HP are multiplied by 4
+patch=1,EE,E002413F,extended,31D48FA6 // Set Max Morale 12%
+patch=1,EE,E0010000,extended,31D48FA4
+patch=1,EE,21D48FA4,extended,41400000
 patch=1,EE,11C4BEB0,extended,00000137 // Sniper  (Hayabusa)
 patch=1,EE,11C4BE70,extended,00000136 // Samurai (Shan Yu)
 patch=1,EE,11C98E4C,extended,00000003 // Samurai Marker
