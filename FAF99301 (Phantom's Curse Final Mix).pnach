@@ -342,7 +342,7 @@ patch=1,EE,11CE01C2,extended,00000117 // Sunset Terrace, Potion is now AP Boost
 patch=1,EE,11CE01CE,extended,000000E8 // Sunset Terrace, Potion is now Secret Ansem's Report 7
 patch=1,EE,11CE01DA,extended,00000083 // Mansion Foyer, Potion is now Tent
 patch=1,EE,11CE01E6,extended,0000022A // Mansion Foyer, Potion is now Joyous Mushroom
-patch=1,EE,11CE01F2,extended,00000131 // Mansion Foyer, Potion is now Champion Belt
+patch=1,EE,11CE01F2,extended,0000012A // Mansion Foyer, Potion is now Midnight Anklet
 patch=1,EE,11CE01FE,extended,00000116 // Mansion Dining Room, Elven Bandana is now Defense Boost
 patch=1,EE,11CE020A,extended,00000005 // Mansion Dining Room, Potion is now Mega-Potion
 patch=1,EE,11CE0216,extended,00000020 // Mansion Library, Hi-Potion is now Torn Page
@@ -536,7 +536,7 @@ patch=1,EE,11CDFD5A,extended,00000006 // Communications Room, Gaia Belt is now M
 patch=1,EE,11CDFD66,extended,00000191 // Central Computer Core, AP Boost is now Experience Boost
 patch=1,EE,11CDFD72,extended,00000115 // Central Computer Core, Orichalcum+ is now Magic Boost
 patch=1,EE,11CDFD7E,extended,00000117 // Central Computer Core, Cosmic Arts is now AP Boost
-patch=1,EE,11CDFD8A,extended,00000001 // Central Computer Core, Central Computer Core Map is now Potion
+patch=1,EE,11CDFD8A,extended,00000023 // Central Computer Core, Central Computer Core Map is now Moon Amulet
 
 //Popups
 // Space Paranoids
@@ -576,9 +576,9 @@ patch=1,EE,E00C0036,extended,0032BAE8
 patch=1,EE,11C552B0,extended,0000072F// Soldier (Front-Right)
 patch=1,EE,11C55330,extended,0000072F// Soldier (Front-Left)
 patch=1,EE,11C55370,extended,00000737// Surveillance Bot (Back)
-patch=1,EE,11C553DC,extended,0000072F// Strafer (Front-Right; Appears)
+patch=1,EE,11C553DC,extended,0000072F// Soldier (Front-Right; Appears)
 patch=1,EE,11C55594,extended,0000073C// Emerald Blues (Back-Middle; Appears)
-patch=1,EE,11C555D4,extended,0000072F// Strafer (Back-Left; Appears)
+patch=1,EE,11C555D4,extended,0000072F// Soldier (Back-Left; Appears)
 patch=1,EE,11C5590C,extended,0000073C// Emerald Blues (Final Wave)
 patch=1,EE,11C5594C,extended,0000073C// Emerald Blues (Final Wave)
 patch=1,EE,11C5598C,extended,0000073C// Emerald Blues (Final Wave)
@@ -2279,7 +2279,7 @@ patch=1,EE,21D10EA8,extended,00000004 // Replacement Reward #2: Replacement Rewa
 // Scar
 patch=1,EE,11D10BD2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10BD4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10BD8,extended,000000AD // Replacement Reward #2: Replacement Reward #1:Fire Bangle
+patch=1,EE,21D10BD8,extended,002800AD // Replacement Reward #2:Soldier Earring Replacement Reward #1:Fire Bangle
 // Hyenas II
 patch=1,EE,11D10ED2,extended,00000004 // MP:0 HP:4
 patch=1,EE,21D10ED4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -4658,17 +4658,17 @@ patch=1,EE,21CDF16C,extended,64646464
 patch=1,EE,21CDF170,extended,00646464
 patch=1,EE,11CDE006,extended,0000BC08
 // Shadow Archive
-patch=1,EE,11CDF176,extended,0000008A // Scan
+patch=1,EE,11CDF176,extended,00000187 // Air Combo Boost
 patch=1,EE,21CDF178,extended,05020300 // +3 MAG, +2 DEF, +5 AP
 patch=1,EE,21CDF17C,extended,64646464
 patch=1,EE,21CDF180,extended,00646464
-patch=1,EE,11CDE01E,extended,00009F73
+patch=1,EE,11CDE01E,extended,0000BBD6
 // Shadow Archive+
-patch=1,EE,11CDF186,extended,0000008A // Scan
+patch=1,EE,11CDF176,extended,00000187 // Air Combo Boost
 patch=1,EE,21CDF188,extended,05030400 // +4 MAG, +3 DEF, +5 AP
 patch=1,EE,21CDF18C,extended,64646464
 patch=1,EE,21CDF190,extended,00646464
-patch=1,EE,11CDE036,extended,00009F73
+patch=1,EE,11CDE036,extended,0000BBD6
 // Full Bloom
 patch=1,EE,11CDF1A6,extended,0000021E // Damage Control
 patch=1,EE,21CDF1A8,extended,05020003 // +3 STR, +2 DEF, +5 AP
@@ -4684,12 +4684,12 @@ patch=1,EE,11CDE066,extended,0000CE2E
 // Draw Ring
 patch=1,EE,11CDF1B6,extended,00000195 // Draw
 patch=1,EE,21CDF1B8,extended,0A000000 // +10 AP
-patch=1,EE,21CDF1BC,extended,646464C8 // -100% Resist Physical (unlisted)
+patch=1,EE,21CDF1BC,extended,64646464
 patch=1,EE,21CDF1C0,extended,00C86464 // -100% Resist ALL (unlisted)
 // Lucky Ring
 patch=1,EE,11CDF196,extended,00000197 // Lucky Lucky
 patch=1,EE,21CDF198,extended,0A000000 // +10 AP
-patch=1,EE,21CDF19C,extended,646464C8 // -100% Resist Physical (unlisted)
+patch=1,EE,21CDF19C,extended,64646464
 patch=1,EE,21CDF1A0,extended,00C86464 // -100% Resist ALL (unlisted)
 
 
@@ -4807,14 +4807,14 @@ patch=1,EE,11D1A22E,extended,0000001A // Valor LV2, Auto Valor is now Valor Form
 patch=1,EE,11D1A236,extended,00000045 // Valor LV3, High Jump LV 1 is now Power Band
 patch=1,EE,11D1A23E,extended,0000002E // Valor LV4, Combo Plus is now Fencer Earring
 patch=1,EE,11D1A246,extended,00000046 // Valor LV5, High Jump LV 2 is now Buster Band
-patch=1,EE,11D1A24E,extended,00000257 // Valor LV6, Combo Plus is now Executive's Ring
+patch=1,EE,11D1A24E,extended,0000003A // Valor LV6, Combo Plus is now Shadow Archive+
 patch=1,EE,11D1A256,extended,000001F3 // Valor LV7, High Jump LV 3 is now Fenrir
 
 patch=1,EE,11D1A266,extended,0000001B // Wisdom LV2, Auto Wisdom is now Wisdom Form
-patch=1,EE,11D1A26E,extended,00000043 // Wisdom LV3, Quick Run LV 1 is now Elven Bandana
+patch=1,EE,11D1A26E,extended,0000004F // Wisdom LV3, Quick Run LV 1 is now Gaia Belt
 patch=1,EE,11D1A276,extended,00000030 // Wisdom LV4, MP Rage is now Slayer Earring
-patch=1,EE,11D1A27E,extended,00000044 // Wisdom LV5, Quick Run LV 2 is now Divine Bandana
-patch=1,EE,11D1A286,extended,0000003A // Wisdom LV6, MP Haste is now Shadow Archive+
+patch=1,EE,11D1A27E,extended,0000006F // Wisdom LV5, Quick Run LV 2 is now Cosmic Belt
+patch=1,EE,11D1A286,extended,00000010 // Wisdom LV6, MP Haste is now Diamond Ring
 patch=1,EE,11D1A28E,extended,000001E7 // Wisdom LV7, Quick Run LV 3 is now Circle of Life
 
 patch=1,EE,11D1A29E,extended,0000007B // Limit LV2, Auto Limit is now Undersea Kingdom Map
@@ -4825,17 +4825,17 @@ patch=1,EE,11D1A2BE,extended,00000034 // Limit LV6, Lucky Lucky is now Cosmic Ri
 patch=1,EE,11D1A2C6,extended,0000002B // Limit LV7, Dodge Roll LV 3 is now Oblivion
 
 patch=1,EE,11D1A2D6,extended,0000001F // Master LV2, Auto Master is now Master Form
-patch=1,EE,11D1A2DE,extended,0000004F // Master LV3, Aerial Dodge LV 1 is now Gaia Belt
-patch=1,EE,11D1A2E6,extended,00000035 // Master LV4, Air Combo Plus is now Medal
-patch=1,EE,11D1A2EE,extended,0000006F // Master LV5, Aerial Dodge LV 2 is now Cosmic Belt
+patch=1,EE,11D1A2DE,extended,00000043 // Master LV3, Aerial Dodge LV 1 is now Elven Bandana
+patch=1,EE,11D1A2E6,extended,0000000C // Master LV4, Air Combo Plus is now Sardonyx Ring
+patch=1,EE,11D1A2EE,extended,00000044 // Master LV5, Aerial Dodge LV 2 is now Divine Bandana
 patch=1,EE,11D1A2F6,extended,00000042 // Master LV6, Air Combo Plus is now Full Bloom+
 patch=1,EE,11D1A2FE,extended,000001E9 // Master LV7, Aerial Dodge LV 3 is now Gull Wing
 
 patch=1,EE,11D1A30E,extended,0000001D // Final LV2, Auto Final is now Final Form
 patch=1,EE,11D1A316,extended,00000131 // Final LV3, Glide LV 1 is now Champion Belt
 patch=1,EE,11D1A31E,extended,00000035 // Final LV4, Form Boost is now Medal
-patch=1,EE,11D1A326,extended,00000132 // Final LV5, Glide LV 2 is now Petite Ribbon
-patch=1,EE,11D1A32E,extended,00000257 // Final LV6, Form Boost is now Executive's Ring
+patch=1,EE,11D1A326,extended,0000012B // Final LV5, Glide LV 2 is now Chaos Anklet
+patch=1,EE,11D1A32E,extended,0000000E // Final LV6, Form Boost is now Aquamarine Ring
 patch=1,EE,11D1A336,extended,000001F4 // Final LV7, Glide LV 3 is now Ultima Weapon
 
 //5x Drive Exp
