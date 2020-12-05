@@ -805,9 +805,10 @@ patch=1,EE,11C583E4,extended,00000134 // Dragoon
 
 //Boss Replacement
 // Marluxia Cleanup
+patch=1,EE,E0030166,extended,01CE0B6A
 patch=1,EE,E002050C,extended,0032BAE0
-patch=1,EE,11CE0B6A,extended,0000005C // Revert Dolan from Marluxia battle
-patch=1,EE,11CE0B6C,extended,0000005D // Revert Goffy from Marluxia battle
+patch=1,EE,11CE0B6A,extended,0000005C // Revert Dolan
+patch=1,EE,11CE0B6C,extended,0000005D // Revert Goffy
 // Marluxia
 patch=1,EE,E00A2604,extended,0032BAE0
 patch=1,EE,E0090091,extended,0032BAE8
@@ -3676,8 +3677,9 @@ patch=1,EE,E0020001,extended,0032BAE8
 patch=1,EE,11C4C714,extended,00000428 // (Shan Yu)
 patch=1,EE,11C4C678,extended,00000022 // (Emperor)
 //Samurai Marker Cleanup
+patch=1,EE,E0030003,extended,01C98E4C
 patch=1,EE,E0020908,extended,0032BAE0
-patch=1,EE,E0010069,extended,0032BAE8
+patch=1,EE,E001004B,extended,1032BAE8
 patch=1,EE,11C98E4C,extended,00000004 // Samurai Marker
 //Shan Yu Fight
 patch=1,EE,E0E50908,extended,0032BAE0
@@ -4030,8 +4032,9 @@ patch=1,EE,E0021512,extended,0032BAE0
 patch=1,EE,E0010041,extended,0032BAE8
 patch=1,EE,11C4F008,extended,000003E5// Xaldin
 //Luxord->Hades Cleanup
-patch=1,EE,E0030965,extended,01CE0B6A
-patch=1,EE,E0020D12,extended,0032BAE0
+patch=1,EE,E0040965,extended,01CE0B6A
+patch=1,EE,E0030E12,extended,0032BAE0
+patch=1,EE,E002003A,extended,1032BAE8
 patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
 patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
 //Luxord (Normal)
@@ -4113,6 +4116,19 @@ patch=1,EE,11CE08E2,extended,000001F8 // Mysterious Abyss, Mysterious Abyss is n
 patch=1,EE,11CE08EE,extended,00000257 // Blizzard, Blizzard is now Executive's Ring
 patch=1,EE,11CE08FA,extended,00000130 // Orichalcum+, Orichalcum+ is now Ribbon
 
+// Remove Requirements
+// Unlock 2nd Song
+patch=1,EE,E0010004,extended,0032CBD0
+patch=1,EE,0032CBD0,extended,00000016
+// Unlock 3rd Song
+patch=1,EE,E0010006,extended,0032CBD0
+patch=1,EE,0032CBD0,extended,00000015
+// Unlock 4th Song
+patch=1,EE,E0010007,extended,0032CBD0
+patch=1,EE,0032CBD0,extended,00000014
+// Unlock 5th Song
+patch=1,EE,E001000C,extended,0032CBD0
+patch=1,EE,0032CBD0,extended,00000013
 
 //-----------------------------------------
 //                Equipments
@@ -4857,7 +4873,6 @@ patch=1,EE,11D1A320,extended,00000010
 patch=1,EE,11D1A328,extended,0000001B
 patch=1,EE,11D1A330,extended,00000020
 
-
 //-----------------------------------------
 //        	Closed Door Timer
 //------------------------------------
@@ -4874,8 +4889,6 @@ patch=1,EE,11D1A330,extended,00000020
 	//  P6 == 01D1940F
 	//  P7 == 01D19410
 	//  P8 == 01D19411
-	//  P9 == 01D19412
-	// P10 == 01D19413
 
 	//{ Set Doom Clock
 		// Doom Clock 1 == 0:30
@@ -6517,12 +6530,12 @@ patch=1,EE,11D1A330,extended,00000020
 //-----------------------------------------
 //                Debug Codes
 //------------------------------------
-patch=1,EE,E108000B,extended,0032BAE0 // If in Atlantica
-patch=1,EE,2032F210,extended,0098967F // Max Exp
-patch=1,EE,2032DF74,extended,00000000 // Reset In Game Timer
-patch=1,EE,0032EB00,extended,00000000 // Reset Doom Clock
-patch=1,EE,21D1940A,extended,00000000
-patch=1,EE,21D1940E,extended,00000000
-patch=1,EE,11D19412,extended,00000000
-patch=1,EE,0032F195,extended,00000063 // 99 High Drive Recovery
-patch=1,EE,0032F0B6,extended,00000063 // 99 Megalixir
+//patch=1,EE,E108000B,extended,0032BAE0 // If in Atlantica
+//patch=1,EE,2032F210,extended,0098967F // Max Exp
+//patch=1,EE,2032DF74,extended,00000000 // Reset In Game Timer
+//patch=1,EE,0032EB00,extended,00000000 // Reset Doom Clock
+//patch=1,EE,21D1940A,extended,00000000
+//patch=1,EE,21D1940E,extended,00000000
+//patch=1,EE,11D19412,extended,00000000
+//patch=1,EE,0032F195,extended,00000063 // 99 High Drive Recovery
+//patch=1,EE,0032F0B6,extended,00000063 // 99 Megalixir
