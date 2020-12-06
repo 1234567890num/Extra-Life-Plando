@@ -355,7 +355,7 @@ patch=1,EE,11CE0612,extended,00000007 // Champion Belt, Champion Belt is now Meg
 patch=1,EE,11CE061E,extended,00000174 // Medal, Medal is now Cursed Medallion
 patch=1,EE,11CE062A,extended,00000046 // "The Struggle" Trophy, "The Struggle" Trophy is now Buster Band
 patch=1,EE,11CE0642,extended,000001E1 // Namine's Sketches, Namine's Sketches is now Hidden Dragon
-patch=1,EE,11CE064E,extended,0000021A // Mansion Map, Mansion Map is now Comet Staff
+patch=1,EE,11CE064E,extended,00000097 // Mansion Map, Mansion Map is now Comet Staff
 patch=1,EE,11CE0B0A,extended,0000009D // Roxas (Data), Magic Boost is now Grand Ribbon
 
 //Bonus Rewards
