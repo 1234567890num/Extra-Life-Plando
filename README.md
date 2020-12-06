@@ -7,4 +7,5 @@ None! We should be ready for release!
 - Test if Battle Levels' difficulty is fine <sub>it isn't :(</sub>
 - Test the new EXP curve
 - Problem Areas:
-  - Moon Chamber Heartless (you can't leave the tower, so you're SOL if you went there first)
+  - Moon Chamber Heartless (Shadow Roxases can dogpile you and you can't leave the tower)
+  - STT Axel I->Axel II (You can get stuck outside the firewall without any way to return without Aerial Recovery)
