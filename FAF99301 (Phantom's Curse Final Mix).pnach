@@ -3316,27 +3316,27 @@ patch=1,EE,11C4CBA0,extended,0000013C// Sorcerer (Beast)
 patch=1,EE,11C4CBE0,extended,0000031B// Demyx (Cogsworth)
 patch=1,EE,E0010022,extended,0035DE20// Sorcerer Cutscene Skip
 patch=1,EE,0035DE20,extended,000000A1
-patch=1,EE,E0090000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E0030000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E002006C,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000003CC
 patch=1,EE,21C6C284,extended,000003CC
-patch=1,EE,E0090001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E0030001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E0020087,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000004BF
 patch=1,EE,21C6C284,extended,000004BF
-patch=1,EE,E0090002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E0030002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E00200A0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000005A0
 patch=1,EE,21C6C284,extended,000005A0
-patch=1,EE,E0090003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E0030003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E00200BC,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E0090004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E0030004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00200D5,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E0090005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E0030005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E00200F0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,00000870
 patch=1,EE,21C6C284,extended,00000870
