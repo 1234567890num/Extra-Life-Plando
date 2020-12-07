@@ -4917,7 +4917,7 @@ patch=1,EE,11D1A330,extended,00000020
 		patch=1,EE,01D19409,extended,00000000 	// RC2 == 0x00
 	//}
 	//{ Set P1
-		patch=1,EE,E1030001,extended,0032EB00 	// IF Doom == 0x01
+		patch=1,EE,E1030002,extended,0032EB00 	// IF Doom == 0x02
 		patch=1,EE,E1020000,extended,01D1940A 	// IF P1 == 0x00
 		patch=1,EE,51D19408,extended,00000001 	// Copy RC1
 		patch=1,EE,01D1940A,extended,00000000 	// to P1
