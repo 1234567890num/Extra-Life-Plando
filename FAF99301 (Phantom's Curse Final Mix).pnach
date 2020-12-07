@@ -20,8 +20,8 @@ patch=1,EE,11D19412,extended,00000000
 //Critical Bonus
 patch=1,EE,11D18DDC,extended,00000233// Limit Form
 patch=1,EE,11D18DDE,extended,0000008A// Scan
-patch=1,EE,11D18DE2,extended,00000002// Hi-Potion
-patch=1,EE,11D18DE4,extended,00000002// Hi-Potion
+patch=1,EE,11D18DE2,extended,00000052// Guard
+patch=1,EE,11D18DE4,extended,0000009E// Aerial Recovery
 patch=1,EE,11D18DE6,extended,00000002// Hi-Potion
 patch=1,EE,11D18DE8,extended,00000002// Hi-Potion
 
@@ -353,24 +353,24 @@ patch=1,EE,11CE0636,extended,000001DF // Twilight Town Map, Twilight Town Map is
 patch=1,EE,11CE0606,extended,00000041 // Munny Pouch (Olette), Munny Pouch (Olette) is now Draw Ring
 patch=1,EE,11CE0612,extended,00000007 // Champion Belt, Champion Belt is now Mega-Elixir
 patch=1,EE,11CE061E,extended,00000174 // Medal, Medal is now Cursed Medallion
-patch=1,EE,11CE062A,extended,00000046 // "The Struggle" Trophy, "The Struggle" Trophy is now Buster Band
+patch=1,EE,11CE062A,extended,00000133 // "The Struggle" Trophy, "The Struggle" Trophy is now Acrisius+
 patch=1,EE,11CE0642,extended,000001E1 // Namine's Sketches, Namine's Sketches is now Hidden Dragon
 patch=1,EE,11CE064E,extended,00000097 // Mansion Map, Mansion Map is now Comet Staff
 patch=1,EE,11CE0B0A,extended,0000009D // Roxas (Data), Magic Boost is now Grand Ribbon
 
 //Bonus Rewards
 // Station of Serenity Nobodies
-patch=1,EE,11D10FA2,extended,0000000A // MP:0 HP:10
+patch=1,EE,11D10FA2,extended,00000014 // MP:0 HP:20
 patch=1,EE,21D10FA4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10FA8,extended,0000021B // Replacement Reward #2: Replacement Reward #1:Combo Master
 // Twilight Thorn
-patch=1,EE,11D10CB2,extended,0000000A // MP:0 HP:10
+patch=1,EE,11D10CB2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10CB4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10CB8,extended,00000169 // Replacement Reward #2: Replacement Reward #1:Orichalcum+
 // Axel I
 patch=1,EE,11D11272,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D11274,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11278,extended,00000000 // Replacement Reward #2: Replacement Reward #1:none
+patch=1,EE,21D11278,extended,0000000B // Replacement Reward #2: Replacement Reward #1:Expert's Ring
 // Axel II
 patch=1,EE,11D10CC2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10CC4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -525,7 +525,7 @@ patch=1,EE,E020FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFCEE,extended,00000112 // Pit Cell, Pit Cell Area Map is now Drive Recovery
 patch=1,EE,11CDFCFA,extended,00000225 // Pit Cell, Mythril Crystal is now Precious Mushroom
-patch=1,EE,11CDFD06,extended,00000179 // Canyon, Dark Crystal is now Orichalcum
+patch=1,EE,11CDFD06,extended,000000C5 // Canyon, Dark Crystal is now Firaga Bangle
 patch=1,EE,11CDFD12,extended,00000093 // Canyon, Mythril Stone is now Nobody Guard
 patch=1,EE,11CDFD1E,extended,00000006 // Canyon, Mythril Gem is now Mega-Ether
 patch=1,EE,11CDFD2A,extended,00000006 // Canyon, Frost Crystal is now Mega-Ether
@@ -546,15 +546,15 @@ patch=1,EE,11CE0A9E,extended,00000084 // Larxene (Data), Lost Illusion is now Sh
 
 //Bonus Rewards
 // Dataspace Computers
-patch=1,EE,11D10E12,extended,0000000A // MP:0 HP:10
+patch=1,EE,11D10E12,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10E14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10E18,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
+patch=1,EE,21D10E18,extended,0014012E // Replacement Reward #2:Mythril Ring Replacement Reward #1:Aegis Chain
 // Hostile Program
 patch=1,EE,11D10C32,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D10C34,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10C38,extended,0000009F // Replacement Reward #2: Replacement Reward #1:Lamp Charm
 // Solar Sailor Heartless
-patch=1,EE,11D11072,extended,00000000 // MP:0 HP:0
+patch=1,EE,11D11072,extended,0000000A // MP:0 HP:10
 patch=1,EE,21D11074,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D11078,extended,000001DE // Replacement Reward #2: Replacement Reward #1:King Recipe
 // MCP
@@ -720,7 +720,7 @@ patch=1,EE,11C5649C,extended,000004B8// Hostile Program
 //----- Disney Castle -----
 patch=1,EE,E016FFFF,extended,0032BAE0
 //Chests
-patch=1,EE,11CDF9B2,extended,00000052 // Courtyard, Mythril Shard is now Guard
+patch=1,EE,11CDF9B2,extended,00000002 // Courtyard, Mythril Shard is now Hi-Potion
 patch=1,EE,11CDF9BE,extended,00000001 // Courtyard, Star Recipe is now Potion
 patch=1,EE,11CDF9CA,extended,00000003 // Courtyard, AP Boost is now Ether
 patch=1,EE,11CDF9D6,extended,0000013F // Courtyard, Mythril Stone is now Blazing Gem
@@ -1327,10 +1327,10 @@ patch=1,EE,11C6C4F0,extended,00000000 // Blizzard Lord HP Gate
 //----- Port Royal -----
 patch=1,EE,E02AFFFF,extended,0032BAE0
 //Chests
-patch=1,EE,11CDFE3E,extended,00000199 // Rampart, Naval Map is now Blizzard Boost
+patch=1,EE,11CDFE3E,extended,00000F10 // Rampart, Naval Map is now Garnet Ring
 patch=1,EE,11CDFE4A,extended,0000000A // Rampart, Mythril Stone is now Technician's Ring
 patch=1,EE,11CDFE56,extended,00000002 // Rampart, Dark Shard is now Hi-Potion
-patch=1,EE,11CDFE62,extended,0000017B // Town, Dark Stone is now Frost Stone
+patch=1,EE,11CDFE62,extended,0000011E // Town, Dark Stone is now Blizzard Armlet
 patch=1,EE,11CDFE6E,extended,00000089 // Town, AP Boost is now Upper Slash
 patch=1,EE,11CDFE7A,extended,00000060 // Town, Mythril Shard is now High Jump LV3
 patch=1,EE,11CDFE86,extended,0000004E // Town, Mythril Gem is now Protect Belt
@@ -1693,7 +1693,7 @@ patch=1,EE,E02DFFFF,extended,0032BAE0
 patch=1,EE,11CDFF3A,extended,00000113 // Borough, Drive Recovery is now High Drive Recovery
 patch=1,EE,11CDFF46,extended,00000057 // Borough, AP Boost is now Magnet
 patch=1,EE,11CDFF52,extended,00000111 // Borough, Hi-Potion is now Retaliating Slash
-patch=1,EE,11CDFF5E,extended,00000166 // Borough, Mythril Shard is now Serenity Stone
+patch=1,EE,11CDFF5E,extended,00000012 // Borough, Mythril Shard is now Gold Ring
 patch=1,EE,11CDFF6A,extended,00000079 // Borough, Dark Shard is now Cave of Wonders Map
 patch=1,EE,11CDFF76,extended,0000024A // Postern, Castle Perimeter Map is now Dark Remembrance Map
 patch=1,EE,11CDFF82,extended,000000A0 // Postern, Mythril Gem is now Feather Charm
@@ -2084,7 +2084,7 @@ patch=1,EE,11CE0282,extended,00000083 // Tram Common, Tent is now Tent
 patch=1,EE,11CE028E,extended,00000230 // Tram Common, Mythril Shard is now Aerial Dive
 patch=1,EE,11CE029A,extended,00000155 // Tram Common, Potion is now Twilight Shard
 patch=1,EE,11CE02A6,extended,000000E6 // Tram Common, Mythril Shard is now Secret Ansem's Report 5
-patch=1,EE,11CE02B2,extended,00000155 // Tram Common, Potion is now Twilight Shard
+patch=1,EE,11CE02B2,extended,00000011 // Tram Common, Potion is now Silver Ring
 patch=1,EE,11CE02BE,extended,00000100 // Central Station, Tent is now Dark City Map
 patch=1,EE,11CE02CA,extended,00000156 // Central Station, Hi-Potion is now Twilight Stone
 patch=1,EE,11CE02D6,extended,00000157 // Central Station, Ether is now Twilight Gem
@@ -2105,9 +2105,9 @@ patch=1,EE,11CE037E,extended,00000117 // Sunset Terrace, Orichalcum+ is now AP B
 patch=1,EE,11CE038A,extended,00000155 // Sunset Terrace, Mythril Shard is now Twilight Shard
 patch=1,EE,11CE0396,extended,000001E8 // Sunset Terrace, Mythril Crystal is now Photon Debugger
 patch=1,EE,11CE03A2,extended,00000117 // Sunset Terrace, AP Boost is now AP Boost
-patch=1,EE,11CE03AE,extended,00000158 // Mansion Foyer, Mythril Crystal is now Twilight Crystal
-patch=1,EE,11CE03BA,extended,00000157 // Mansion Foyer, Mythril Stone is now Twilight Gem
-patch=1,EE,11CE03C6,extended,00000158 // Mansion Foyer, Serenity Crystal is now Twilight Crystal
+patch=1,EE,11CE03AE,extended,0000011C // Mansion Foyer, Mythril Crystal is now Firagun Bangle
+patch=1,EE,11CE03BA,extended,00000121 // Mansion Foyer, Mythril Stone is now Blizzagun Armlet
+patch=1,EE,11CE03C6,extended,00000126 // Mansion Foyer, Serenity Crystal is now Thundagun Trinket
 patch=1,EE,11CE03D2,extended,000000A2 // Mansion Dining Room, Mythril Crystal is now Combo Plus
 patch=1,EE,11CE03DE,extended,000000A3 // Mansion Dining Room, Mythril Stone is now Air Combo Plus
 patch=1,EE,11CE03EA,extended,00000113 // Mansion Library, Orichalcum is now High Drive Recovery
@@ -2185,9 +2185,9 @@ patch=1,EE,11C5B168,extended,0000012D// Soldier (1st Wave; Front-Left)
 patch=1,EE,11C5B1A8,extended,0000012D// Soldier (1st Wave; Back-Left)
 patch=1,EE,11C5B1E8,extended,0000012D// Soldier (1st Wave; Back-Right)
 patch=1,EE,11C5B228,extended,00000754// Shadow Roxas (2nd Wave; Front-Middle)
-patch=1,EE,11C5B268,extended,00000754// Shadow Roxas (2nd Wave; Back-Middle)
-patch=1,EE,11C5B2A8,extended,00000754// Shadow Roxas (2nd Wave; Mid-Right)
-patch=1,EE,11C5B2E8,extended,00000754// Shadow Roxas (2nd Wave; Mid-Left)
+patch=1,EE,11C5B268,extended,0000013D// Creeper (2nd Wave; Back-Middle)
+patch=1,EE,11C5B2A8,extended,0000013D// Creeper (2nd Wave; Mid-Right)
+patch=1,EE,11C5B2E8,extended,0000013D// Creeper (2nd Wave; Mid-Left)
 //Sandlot Nobodies Fight
 patch=1,EE,E00C0402,extended,0032BAE0//
 patch=1,EE,E00B0050,extended,0032BAE8//
@@ -2540,7 +2540,7 @@ patch=1,EE,11CE070E,extended,00000203 // Coliseum Map, Coliseum Map is now I/O T
 patch=1,EE,11CE071A,extended,00000114 // Olympus Stone, Olympus Stone is now Power Boost
 patch=1,EE,11CE09D2,extended,00000115 // OC Demyx, Secret Ansem's Report 5 is now Magic Boost
 patch=1,EE,11CE0726,extended,0000002A // Hero's Crest, Hero's Crest is now Oathkeeper
-patch=1,EE,11CE0882,extended,00000146 // Auron's Statue, Auron's Statue is now Lightning Stone
+patch=1,EE,11CE0882,extended,00000125 // Auron's Statue, Auron's Statue is now Thundaga Trinket
 patch=1,EE,11CE088E,extended,00000158 // Guardian Soul, Guardian Soul is now Twilight Crystal
 patch=1,EE,11CE0A56,extended,00000115 // Zexion (Absent Silhouettes), Book of Shadows is now Magic Boost
 patch=1,EE,11CE0A92,extended,00000039 // Zexion (Data), Lost Illusion is now Shadow Archive
@@ -3030,7 +3030,7 @@ patch=1,EE,E023FFFF,extended,0032BAE0
 patch=1,EE,11CDFD96,extended,00000128 // Graveyard, Mythril Shard is now Shadow Anklet
 patch=1,EE,11CDFDA2,extended,0000011A // Graveyard, Serenity Gem is now Dark Gem
 patch=1,EE,11CDFDAE,extended,00000020 // Dr. Finklestein's Lab, Halloween Town Map is now Torn Page
-patch=1,EE,11CDFDBA,extended,0000009E // Halloween Town Square, Mythril Stone is now Aerial Recovery
+patch=1,EE,11CDFDBA,extended,00000009 // Halloween Town Square, Mythril Stone is now Engineer's Ring
 patch=1,EE,11CDFDC6,extended,00000118 // Halloween Town Square, Energy Shard is now Dark Shard
 patch=1,EE,11CDFDD2,extended,00000119 // Hinterlands, Lightning Shard is now Dark Stone
 patch=1,EE,11CDFDDE,extended,00000087 // Hinterlands, Mythril Stone is now Underworld Map
@@ -3038,13 +3038,13 @@ patch=1,EE,11CDFDEA,extended,0000008E // Hinterlands, AP Boost is now Falling St
 patch=1,EE,11CDFDF6,extended,00000015 // Candy Cane Lane, Mega Potion is now Fire
 patch=1,EE,11CDFE02,extended,0000001F // Candy Cane Lane, Mythril Gem is now Master Form
 patch=1,EE,11CDFE0E,extended,00000099 // Candy Cane Lane, Lightning Stone is now Wisdom Wand
-patch=1,EE,11CDFE1A,extended,0000013E // Candy Cane Lane, Mythril Stone is now Blazing Stone
+patch=1,EE,11CDFE1A,extended,00000199 // Candy Cane Lane, Mythril Stone is now Blizzard Boost
 patch=1,EE,11CDFE26,extended,00000175 // Santa's House, Christmas Town Map is now Presents
 patch=1,EE,11CDFE32,extended,0000021C // Santa's House, AP Boost is now Drive Converter
 
 //Popups
-patch=1,EE,11CE07AA,extended,0000014F // Magnet, Magnet is now Lucid Gem
-patch=1,EE,11CE08BE,extended,00000176 // Present, Present is now Decoy Presents
+patch=1,EE,11CE07AA,extended,0000011B // Magnet, Magnet is now Dark Crystal
+patch=1,EE,11CE08BE,extended,00000027 // Present, Present is now Skillful Ring
 patch=1,EE,11CE08CA,extended,000001EE // Decoy Presents, Decoy Presents is now Sleeping Lion
 patch=1,EE,11CE08D6,extended,000000EC // Decisive Pumpkin, Decisive Pumpkin is now Secret Ansem's Report 11
 patch=1,EE,11CE0A3E,extended,00000116 // Vexen (Absent Silhouttes), Road to Discovery is now Defense Boost
@@ -3062,7 +3062,7 @@ patch=1,EE,21D10A28,extended,0000005E // Replacement Reward #2: Replacement Rewa
 // Lock/Shock/Barrel
 patch=1,EE,11D10D72,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10D74,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10D78,extended,000001D5 // Replacement Reward #2: Replacement Reward #1:Rare Document
+patch=1,EE,21D10D78,extended,001301D5 // Replacement Reward #2:Platinum Ring Replacement Reward #1:Rare Document
 // The Experiment
 patch=1,EE,11D10A62,extended,00000A0A // MP:10 HP:10
 patch=1,EE,21D10A64,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -3140,7 +3140,7 @@ patch=1,EE,11CDFBF2,extended,00000249 // Courtyard, AP Boost is now Manifest Ill
 patch=1,EE,11CDFBFE,extended,00000197 // Courtyard, Hi-Potion is now Lucky Lucky
 patch=1,EE,11CDFC0A,extended,00000117 // Courtyard, Mythril Shard is now AP Boost
 patch=1,EE,11CDFC16,extended,00000181 // Belle's Room, Castle Map is now Auto Valor
-patch=1,EE,11CDFC22,extended,0000015F // Belle's Room, Mega Recipe is now Bright Gem
+patch=1,EE,11CDFC22,extended,00000026 // Belle's Room, Mega Recipe is now Skill Ring
 patch=1,EE,11CDFC2E,extended,00000002 // The East Wing, Mythril Shard is now Hi-Potion
 patch=1,EE,11CDFC3A,extended,000000A3 // The East Wing, Tent is now Air Combo Plus
 patch=1,EE,11CDFC46,extended,00000083 // The West Hall, Hi-Potion is now Tent
@@ -3447,7 +3447,7 @@ patch=1,EE,11CDF74E,extended,0000014B // Checkpoint, Hi-Potion is now Power Gem
 patch=1,EE,11CDF75A,extended,000000E7 // Checkpoint, Mythril Shard is now Secret Ansem's Report 6
 patch=1,EE,11CDF766,extended,00000003 // Mountain Trail, Lightning Shard is now Ether
 patch=1,EE,11CDF772,extended,00000019 // Mountain Trail, Recovery Recipe is now Ukulele Charm
-patch=1,EE,11CDF77E,extended,0000017A // Mountain Trail, Ether is now Frost Shard
+patch=1,EE,11CDF77E,extended,00000124 // Mountain Trail, Ether is now Thundara Trinket
 patch=1,EE,11CDF78A,extended,0000014C // Mountain Trail, Mythril Shard is now Power Crystal
 patch=1,EE,11CDF796,extended,0000024E // Village Cave, AP Boost is now Depths of Remembrance Map
 patch=1,EE,11CDF7A2,extended,00000112 // Village Cave, Dark Shard is now Drive Recovery
@@ -4016,8 +4016,10 @@ patch=1,EE,11CE0B6C,extended,00000965// Replace Goffy with Iron Hammer
 patch=1,EE,21C6C1C0,extended,00000000// God Mode
 patch=1,EE,21C6C1C4,extended,00000000// God Mode
 //Saix (Normal)
-patch=1,EE,E0020F12,extended,0032BAE0
-patch=1,EE,E0010038,extended,0032BAE8
+patch=1,EE,E0040F12,extended,0032BAE0
+patch=1,EE,E0030038,extended,0032BAE8
+patch=1,EE,2032F0AC,extended,12121200// Solo Fight
+patch=1,EE,0032F055,extended,00000000// Remove Summons
 patch=1,EE,11C520AC,extended,00000951// Roxas
 //Xemnas (Normal) (kira)
 patch=1,EE,E0031312,extended,0032BAE0
