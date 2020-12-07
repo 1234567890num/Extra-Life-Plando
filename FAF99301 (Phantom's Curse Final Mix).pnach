@@ -523,7 +523,7 @@ patch=1,EE,21C6C4EC,extended,0000041A
 //----- Space Paranoids -----
 patch=1,EE,E020FFFF,extended,0032BAE0
 //Chests
-patch=1,EE,11CDFCEE,extended,00000112 // Pit Cell, Pit Cell Area Map is now Drive Recovery
+patch=1,EE,11CDFCEE,extended,00000191 // Pit Cell, Pit Cell Area Map is now Experience Boost
 patch=1,EE,11CDFCFA,extended,00000225 // Pit Cell, Mythril Crystal is now Precious Mushroom
 patch=1,EE,11CDFD06,extended,000000C5 // Canyon, Dark Crystal is now Firaga Bangle
 patch=1,EE,11CDFD12,extended,00000093 // Canyon, Mythril Stone is now Nobody Guard
@@ -533,7 +533,7 @@ patch=1,EE,11CDFD36,extended,000000E3 // Hallway, Power Crystal is now Secret An
 patch=1,EE,11CDFD42,extended,00000006 // Hallway, AP Boost is now Mega-Ether
 patch=1,EE,11CDFD4E,extended,0000001A // Communications Room, I/O Tower Map is now Valor Form
 patch=1,EE,11CDFD5A,extended,00000006 // Communications Room, Gaia Belt is now Mega-Ether
-patch=1,EE,11CDFD66,extended,00000191 // Central Computer Core, AP Boost is now Experience Boost
+patch=1,EE,11CDFD66,extended,00000112 // Central Computer Core, AP Boost is now Drive Recovery
 patch=1,EE,11CDFD72,extended,00000115 // Central Computer Core, Orichalcum+ is now Magic Boost
 patch=1,EE,11CDFD7E,extended,00000117 // Central Computer Core, Cosmic Arts is now AP Boost
 patch=1,EE,11CDFD8A,extended,00000023 // Central Computer Core, Central Computer Core Map is now Moon Amulet
@@ -3911,7 +3911,7 @@ patch=1,EE,21D48F34,extended,0000FFFF // Lexaeus' Power
 patch=1,EE,E02FFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
-patch=1,EE,11CE040E,extended,00000003 // Fragment Crossing, Mythril Crystal is now Ether
+patch=1,EE,11CE040E,extended,00000191 // Fragment Crossing, Mythril Crystal is now Experience Boost
 patch=1,EE,11CE041A,extended,00000113 // Fragment Crossing, AP Boost is now High Drive Recovery
 patch=1,EE,11CE0426,extended,00000116 // Fragment Crossing, Orichalcum is now Defense Boost
 patch=1,EE,11CE0432,extended,00000115 // Memory's Skyscraper, Mythril Crystal is now Magic Boost
