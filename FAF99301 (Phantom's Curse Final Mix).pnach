@@ -1327,7 +1327,7 @@ patch=1,EE,11C6C4F0,extended,00000000 // Blizzard Lord HP Gate
 //----- Port Royal -----
 patch=1,EE,E02AFFFF,extended,0032BAE0
 //Chests
-patch=1,EE,11CDFE3E,extended,00000F10 // Rampart, Naval Map is now Garnet Ring
+patch=1,EE,11CDFE3E,extended,0000000F // Rampart, Naval Map is now Garnet Ring
 patch=1,EE,11CDFE4A,extended,0000000A // Rampart, Mythril Stone is now Technician's Ring
 patch=1,EE,11CDFE56,extended,00000002 // Rampart, Dark Shard is now Hi-Potion
 patch=1,EE,11CDFE62,extended,0000011E // Town, Dark Stone is now Blizzard Armlet
@@ -2217,8 +2217,10 @@ patch=1,EE,11C50424,extended,00000136// Samurai (Back-Left)
 patch=1,EE,11C50464,extended,00000135// Assassin (Front-Right)
 patch=1,EE,11C504A4,extended,00000136// Samurai (Back-Right)
 //Betwixt and Between Nobodies Fight 2
-patch=1,EE,E0132802,extended,0032BAE0//
-patch=1,EE,E01200A1,extended,0032BAE8//
+patch=1,EE,E0152802,extended,0032BAE0//
+patch=1,EE,E01400A1,extended,0032BAE8//
+patch=1,EE,E0010007,extended,0035DE20// Sorcerer Cutscene Skip
+patch=1,EE,0035DE20,extended,00000079
 patch=1,EE,11C50644,extended,0000013C// Sorcerer (Back-Middle)
 patch=1,EE,11C50684,extended,0000013E// Dusk
 patch=1,EE,11C506C4,extended,00000137// Sniper
@@ -3314,7 +3316,7 @@ patch=1,EE,0032F055,extended,00000000// Remove Summons
 patch=1,EE,01C9902C,extended,00000003// Sorcerer Boss Marker
 patch=1,EE,11C4CBA0,extended,0000013C// Sorcerer (Beast)
 patch=1,EE,11C4CBE0,extended,0000031B// Demyx (Cogsworth)
-patch=1,EE,E0010022,extended,0035DE20// Sorcerer Cutscene Skip
+patch=1,EE,E001001A,extended,0035DE20// Sorcerer Cutscene Skip
 patch=1,EE,0035DE20,extended,000000A1
 patch=1,EE,E0030000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E002006C,extended,01C6C284// Sorcerer's HP Slot 3
@@ -4381,7 +4383,7 @@ patch=1,EE,11CDDC2E,extended,0000BBF0 // Might return to this if I find a text t
 patch=1,EE,11CDEE36,extended,00000194 // No XP
 patch=1,EE,21CDEE38,extended,00000000
 patch=1,EE,21CDEE3C,extended,64646464
-patch=1,EE,21CDEE40,extended,00FA6464 // -100% Resist ALL (unlisted)
+patch=1,EE,21CDEE40,extended,00646464
 patch=1,EE,11CDDC46,extended,0000BBF0 // Might return to this if I find a text that implies you'll get wrecked
 // Shadow Anklet
 patch=1,EE,11CDEF16,extended,0000018D // Drive Boost
