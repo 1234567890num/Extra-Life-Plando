@@ -3747,7 +3747,7 @@ patch=1,EE,11D0BCD4,extended,00000000 // Staff Reward: Empty
 //------------------------------------
 patch=1,EE,11D1A1EE,extended,00000114 // Summon LV2, Power Boost
 patch=1,EE,11D1A1F6,extended,00000115 // Summon LV3, Magic Boost
-patch=1,EE,11D1A2FE,extended,00000116 // Summon LV4, Defense Boost
+patch=1,EE,11D1A1FE,extended,00000116 // Summon LV4, Defense Boost
 patch=1,EE,11D1A206,extended,00000114 // Summon LV5, Power Boost
 patch=1,EE,11D1A20E,extended,00000115 // Summon LV6, Magic Boost
 patch=1,EE,11D1A216,extended,00000038 // Summon LV7, Cosmic Arts
