@@ -61,57 +61,56 @@ patch=1,EE,63636363,extended,00000000 // BL99
 //-----------------------------------------
 //                Misc. Codes
 //------------------------------------
-//Cogsworth Inf. Grip
+// Cogsworth Inf. Grip
 patch=1,EE,E0020C05,extended,0032BAE0
 patch=1,EE,E0010002,extended,0032BAE8
 patch=1,EE,11D48FA6,extended,00004208
 // Urn Practice (Story)
 patch=1,EE,E0030006,extended,0032BAE0
-patch=1,EE,E002008C,extended,0032BAE4
+patch=1,EE,E002008C,extended,0032BAE8
 patch=1,EE,E0010000,extended,01D48EFC
 patch=1,EE,21D48EFC,extended,00000013
 // Urn Maniac (Story)
 patch=1,EE,E0030006,extended,0032BAE0
-patch=1,EE,E002008D,extended,0032BAE4
+patch=1,EE,E002008D,extended,0032BAE8
 patch=1,EE,E0010000,extended,01D48EFC
 patch=1,EE,21D48EFC,extended,00000063
 // Hunny Slider (Story)
 patch=1,EE,E0020709,extended,0032BAE0
-patch=1,EE,E0010039,extended,0032BAE4
+patch=1,EE,E0010039,extended,0032BAE8
 patch=1,EE,21D48EFC,extended,0000000A
 // Balloon Bounce (Story)
-patch=1,EE,E0040809,extended,0032BAE0
-patch=1,EE,E003003B,extended,0032BAE4
-patch=1,EE,E0020000,extended,01D48EFC
-patch=1,EE,20349DE8,extended,00000000
+patch=1,EE,E0030809,extended,0032BAE0
+patch=1,EE,E002003B,extended,0032BAE8
+patch=1,EE,E0010000,extended,01D48EFC
 patch=1,EE,21D48EFC,extended,00000009
 // The Expotition (Story)
 patch=1,EE,E0020909,extended,0032BAE0
-patch=1,EE,E001003D,extended,0032BAE4
+patch=1,EE,E001003D,extended,0032BAE8
 patch=1,EE,20349DE8,extended,00000000
 // Atlantica Tutorial
 patch=1,EE,E002020B,extended,0032BAE0
-patch=1,EE,E001003F,extended,0032BAE4
+patch=1,EE,E001003F,extended,0032BAE8
 patch=1,EE,2035DAC4,extended,00000001
 // Finny Fun
 patch=1,EE,E002040B,extended,0032BAE0
-patch=1,EE,E0010040,extended,0032BAE4
+patch=1,EE,E0010040,extended,0032BAE8
 patch=1,EE,2035DAD4,extended,00000000
 // Part of Your World
 patch=1,EE,E002010B,extended,0032BAE0
-patch=1,EE,E0010033,extended,0032BAE4
+patch=1,EE,E0010033,extended,0032BAE8
 patch=1,EE,2035DAC8,extended,00000005
 // Unda Da Sea
 patch=1,EE,E002030B,extended,0032BAE0
-patch=1,EE,E0010035,extended,0032BAE4
+patch=1,EE,E0010035,extended,0032BAE8
 patch=1,EE,2035DAC4,extended,00002710
 // Ursula's Revenge
 patch=1,EE,E002090B,extended,0032BAE0
-patch=1,EE,E0010041,extended,0032BAE4
+patch=1,EE,E0010041,extended,0032BAE8
 patch=1,EE,2035DAC4,extended,00002710
 // A New Day is Dawning
 patch=1,EE,E002040B,extended,0032BAE0
-patch=1,EE,E0010037,extended,0032BAE4
+patch=1,EE,E0010037,extended,0032BAE8
 patch=1,EE,2035DAC4,extended,00007530
 //Shorter Day 5
 patch=1,EE,E0100B02,extended,0032BAE0
@@ -131,27 +130,6 @@ patch=1,EE,1032DC40,extended,00000000
 patch=1,EE,0032DE39,extended,0000007D
 patch=1,EE,0032DE3C,extended,00000017
 patch=1,EE,0032DEC4,extended,0000001E
-//Oogie Boogie HP Barrier Removal 1
-patch=1,EE,E005090E,extended,0032BAE0
-patch=1,EE,E0040037,extended,0032BAE4
-patch=1,EE,E0030037,extended,0032BAE6
-patch=1,EE,E0020037,extended,0032BAE8
-patch=1,EE,E0010173,extended,01C6C01C
-patch=1,EE,11C6C020,extended,00000000
-//Oogie Boogie HP Barrier Removal 2
-patch=1,EE,E005090E,extended,0032BAE0
-patch=1,EE,E0040037,extended,0032BAE4
-patch=1,EE,E0030037,extended,0032BAE6
-patch=1,EE,E0020037,extended,0032BAE8
-patch=1,EE,E0010173,extended,01C6C284
-patch=1,EE,11C6C288,extended,00000000
-//Oogie Boogie HP Barrier Removal 3
-patch=1,EE,E005090E,extended,0032BAE0
-patch=1,EE,E0040037,extended,0032BAE4
-patch=1,EE,E0030037,extended,0032BAE6
-patch=1,EE,E0020037,extended,0032BAE8
-patch=1,EE,E0010173,extended,01C6C4EC
-patch=1,EE,11C6C4F0,extended,00000000
 //Fast Gift Wrapping
 patch=1,EE,11CA2E78,extended,00004C58
 patch=1,EE,21CA2E98,extended,6D2E4C58
@@ -2700,16 +2678,16 @@ patch=1,EE,E0031106,extended,0032BAE0
 patch=1,EE,E002007B,extended,1032BAE8// If NOT in fight
 patch=1,EE,01CBACEC,extended,00000003// Revert Demyx Marker
 patch=1,EE,01CA47EC,extended,00000004// Revert Water Clone Marker
-//Demyx
+//Demyx I
 patch=1,EE,E0081106,extended,0032BAE0
 patch=1,EE,E007007B,extended,0032BAE8
 patch=1,EE,20349DE8,extended,00000000// Stop Timer
+patch=1,EE,21D48EFC,extended,00000001// 1 Enemy Target
 patch=1,EE,11C527FC,extended,000008F7// Demyx
 patch=1,EE,11C5281C,extended,00000001// Demyx Fix 1 (Can't stagger without this)
 patch=1,EE,01D48DEC,extended,00000002// Demyx Fix 2 (Can't actually fight without this)
 patch=1,EE,01CBACEC,extended,00000004// Demyx Marker into Enemy
 patch=1,EE,01CA47EC,extended,00000003// Water Clone Marker into Boss
-patch=1,EE,21D48EFC,extended,00000001// 1 Enemy Target
 //Pete Fight (Olympus Coliseum; Part II)
 patch=1,EE,E00A0806,extended,0032BAE0
 patch=1,EE,E0090074,extended,0032BAE8
@@ -3650,10 +3628,9 @@ patch=1,EE,E0020908,extended,0032BAE0
 patch=1,EE,E001004B,extended,1032BAE8
 patch=1,EE,11C98E4C,extended,00000004 // Samurai Marker
 //Shan Yu Fight
-patch=1,EE,E0E50908,extended,0032BAE0
-patch=1,EE,E0E4004B,extended,0032BAE8
-patch=1,EE,E002413F,extended,31D48FA6 // Set Max Morale 12%
-patch=1,EE,E0010000,extended,31D48FA4
+patch=1,EE,E0E40908,extended,0032BAE0
+patch=1,EE,E0E3004B,extended,0032BAE8
+patch=1,EE,E001413F,extended,31D48FA6 // Set Max Morale 12%
 patch=1,EE,21D48FA4,extended,41400000
 patch=1,EE,11C4BEB0,extended,00000137 // Sniper  (Hayabusa)
 patch=1,EE,11C4BE70,extended,00000136 // Samurai (Shan Yu)
@@ -4766,7 +4743,7 @@ patch=1,EE,E048FFFF,extended,0032BAE0
 
 patch=1,EE,11D1A1EE,extended,00000114 // Summon LV2, Power Boost
 patch=1,EE,11D1A1F6,extended,00000115 // Summon LV3, Magic Boost
-patch=1,EE,11D1A2FE,extended,00000116 // Summon LV4, Defense Boost
+patch=1,EE,11D1A1FE,extended,00000116 // Summon LV4, Defense Boost
 patch=1,EE,11D1A206,extended,00000114 // Summon LV5, Power Boost
 patch=1,EE,11D1A20E,extended,00000115 // Summon LV6, Magic Boost
 patch=1,EE,11D1A216,extended,00000038 // Summon LV7, Cosmic Arts
