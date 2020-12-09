@@ -5,3 +5,5 @@ Dripping with sweat from the vivid nightmare, you journey forth with memories of
 *You better hurry. Time stops for no one, and as the minute hand reaches 6 or 12, a world shall fall to darkness forever.*
 
 **This curse is more powerful than before. The worlds are now randomly at risk of falling into darkness. The curse also affects the strength of enemies over time**
+
+***Phil wants to remind you that as junior heroes, your training never ends. wisely spend some time to do so as your foes are likely doing the same***
