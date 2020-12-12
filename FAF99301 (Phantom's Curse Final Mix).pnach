@@ -1988,17 +1988,22 @@ patch=1,EE,11C4EA48,extended,0000013E// Dusk
 patch=1,EE,11C4EA88,extended,0000013E// Dusk
 patch=1,EE,11C4EAC8,extended,0000013E// Dusk
 patch=1,EE,11C4EB08,extended,00000934// Anti Sora
+//1K Heartless Cleanup (Shouldn't have broken anything, but better to be safe)
+patch=1,EE,E0053331,extended,01CA97D4
+patch=1,EE,E0041104,extended,1032BAE0
+patch=1,EE,21CA97D4,extended,5F303737
+patch=1,EE,21CA97F4,extended,5F303737
+patch=1,EE,21CA97F8,extended,2E574152
+patch=1,EE,21CA97FC,extended,7465736D
 //1K Heartless (Blame SPTKira)
-patch=1,EE,E0091104,extended,0032BAE0//
-patch=1,EE,E0080042,extended,0032BAE8//
+patch=1,EE,E0071104,extended,0032BAE0//
+patch=1,EE,E0060042,extended,0032BAE8//
 patch=1,EE,11D48EE8,extended,000000FF// Required Kills 255
 patch=1,EE,2032F074,extended,12020100// Add Dolan & Goffy
-patch=1,EE,21CA97D0,extended,58455F4D// Change 1K Surveillance Bots into Crimson Jazzes
-patch=1,EE,21CA97D4,extended,00303331// Shouldn't affect normal Surveillance Bots though
-patch=1,EE,21CA97F0,extended,58455F4D
-patch=1,EE,21CA97F4,extended,2E303331
+patch=1,EE,21CA97D4,extended,00303331// Change 1K Surveillance Bots into Crimson Jazzes
+patch=1,EE,21CA97F4,extended,2E303331// Shouldn't affect normal Surveillance Bots though
 patch=1,EE,21CA97F8,extended,7465736D
-patch=1,EE,21CA97FC,extended,00000000
+patch=1,EE,01CA97FC,extended,00000000
 
 //Boss Replacement
 //Demyx II
@@ -2274,61 +2279,20 @@ patch=1,EE,21D10C18,extended,0000009F // Replacement Reward #2: Replacement Rewa
 //Enemy Replacement
 // Experiment Marker Cleanup
 patch=1,EE,E0030004,extended,01CA9EEC
-patch=1,EE,E102000A,extended,0032BAE0 // Cutscene
+patch=1,EE,E102000A,extended,0032BAE0
 patch=1,EE,E0010038,extended,1032BAE8
 patch=1,EE,01CA9EEC,extended,00000003 // Experiment to Boss
 //Elephant Graveyard Heartless
-patch=1,EE,E032050A,extended,0032BAE0
-patch=1,EE,E0310038,extended,0032BAE8
-patch=1,EE,01D1129A,extended,00000032 // BL50 to adjust damage scaling in enemies favor
+patch=1,EE,E009050A,extended,0032BAE0
+patch=1,EE,E0080038,extended,0032BAE8
 patch=1,EE,01CA9EEC,extended,00000004 // Set The Experiment to normal enemy
 patch=1,EE,00347D34,extended,00000072 // Tension Rising (Twilight Thorn, Beast, OC Demyx)
-patch=1,EE,11C4EC14,extended,000005D0 // The Experiment
-patch=1,EE,11C4EC54,extended,00000000 // Nothing
-patch=1,EE,21C6C1C0,extended,19191964
-patch=1,EE,21C6C1C4,extended,00649619
-patch=1,EE,E0060000,extended,0032EB00 // DOOM CLOCK == 0
-patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
-patch=1,EE,11C6C018,extended,000002BC // Slot 4
-patch=1,EE,11C6C01C,extended,000002BC
-patch=1,EE,11C6C020,extended,00000000
-patch=1,EE,11C6C1A0,extended,00000014
-patch=1,EE,11C6C1A4,extended,0000000A
-patch=1,EE,E0060001,extended,0032EB00 // DOOM CLOCK == 1
-patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
-patch=1,EE,11C6C018,extended,000003E8 // Slot 4
-patch=1,EE,11C6C01C,extended,000003E8
-patch=1,EE,11C6C020,extended,00000000
-patch=1,EE,11C6C1A0,extended,00000020
-patch=1,EE,11C6C1A4,extended,00000011
-patch=1,EE,E0060002,extended,0032EB00 // DOOM CLOCK == 2
-patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
-patch=1,EE,11C6C018,extended,000005DD // Slot 4
-patch=1,EE,11C6C01C,extended,000005DD
-patch=1,EE,11C6C020,extended,00000000
-patch=1,EE,11C6C1A0,extended,0000002D
-patch=1,EE,11C6C1A4,extended,00000018
-patch=1,EE,E0060003,extended,0032EB00 // DOOM CLOCK == 3
-patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
-patch=1,EE,11C6C018,extended,00000708 // Slot 4
-patch=1,EE,11C6C01C,extended,00000708
-patch=1,EE,11C6C020,extended,00000000
-patch=1,EE,11C6C1A0,extended,00000036
-patch=1,EE,11C6C1A4,extended,0000001D
-patch=1,EE,E0060004,extended,0032EB00 // DOOM CLOCK == 4
-patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
-patch=1,EE,11C6C018,extended,000007D0 // Slot 4
-patch=1,EE,11C6C01C,extended,000007D0
-patch=1,EE,11C6C020,extended,00000000
-patch=1,EE,11C6C1A0,extended,0000003E
-patch=1,EE,11C6C1A4,extended,00000024
-patch=1,EE,E0060005,extended,0032EB00 // DOOM CLOCK == 5 (Only scaling to DC5 since it doesn't change much to be in a world at DC6)
-patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
-patch=1,EE,11C6C018,extended,000009C4 // Slot 4
-patch=1,EE,11C6C01C,extended,000009C4
-patch=1,EE,11C6C020,extended,00000000
-patch=1,EE,11C6C1A0,extended,00000045
-patch=1,EE,11C6C1A4,extended,0000002B
+patch=1,EE,11C4EC14,extended,0000004B // Slot 5 (Bulky Vendor)
+patch=1,EE,11C4EC54,extended,000005D0 // Slot 4 (The Experiment)
+patch=1,EE,11C6C020,extended,00000000 // Remove Experiment's HP Gate
+patch=1,EE,E0020000,extended,01C6C018 // If Experiment Dead before Bulky Vendor Despawns
+patch=1,EE,21C6BF58,extended,FFFFFFFF // Make it vulnerable
+patch=1,EE,21C6BF5C,extended,00FFFFFF // So you can kill it for EXP
 
 //Boss Replacement
 // Hyenas 1
@@ -3550,7 +3514,7 @@ patch=1,EE,11C589E4,extended,00000048 // Emerald Blues (Chest up to the right)
 patch=1,EE,11C58A24,extended,00000048
 patch=1,EE,11C58AD0,extended,000006EE // Graveyard (Central fight)
 patch=1,EE,11C58B10,extended,000006F0 // Toy Soldier
-patch=1,EE,11C58B50,extended,000006F0
+patch=1,EE,11C58B50,extended,0000004B // Bulky Vendor
 patch=1,EE,11C58BFC,extended,0000007D // Creeper Plant (2 chests on plateau)
 patch=1,EE,11C58C3C,extended,0000007D
 patch=1,EE,11C58C7C,extended,0000007D
