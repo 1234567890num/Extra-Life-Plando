@@ -4803,10 +4803,10 @@ patch=1,EE,11D1A330,extended,00000020
 	//  P8 == 01D19411
 
 	//{ Set Doom Clock
-		// Doom Clock 1 == 0:30
-		patch=1,EE,E1020001,extended,0032DF76	// If TP1
-		patch=1,EE,E001A5E0,extended,0032DF74	// If TP2
-		patch=1,EE,0032EB00,extended,00000001	// Doom Clock
+		// Doom Clock 1 == 0:30 (Removed for balancing purposes)
+		//patch=1,EE,E1020001,extended,0032DF76	// If TP1
+		//patch=1,EE,E001A5E0,extended,0032DF74	// If TP2
+		//patch=1,EE,0032EB00,extended,00000001	// Doom Clock
 		// Doom Clock 2 == 1:00
 		patch=1,EE,E1020003,extended,0032DF76	// If TP1
 		patch=1,EE,E0014BC0,extended,0032DF74	// If TP2
