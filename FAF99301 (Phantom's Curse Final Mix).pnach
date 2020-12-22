@@ -1732,8 +1732,9 @@ patch=1,EE,11C4C174,extended,00000134// Dragoon
 patch=1,EE,11C4C1B4,extended,0000013E// Dusk (Back-Right)
 patch=1,EE,11C4C1F4,extended,0000013E// Dusk (Back-Left)
 //Bailey Nobodies Fight
-patch=1,EE,E0300804,extended,0032BAE0//
-patch=1,EE,E02F0034,extended,0032BAE8//
+patch=1,EE,E0310804,extended,0032BAE0//
+patch=1,EE,E0300034,extended,0032BAE8//
+patch=1,EE,11C6C900,extended,00000000// 0 Drive Gauge
 patch=1,EE,11C45984,extended,0000061C// Leon (Ally)
 patch=1,EE,11C459F0,extended,00000008// Hammer Frame (1st Wave; Back-Middle)
 patch=1,EE,11C45A30,extended,00000008// Hammer Frame (1st Wave; Back-Right)
@@ -1781,17 +1782,6 @@ patch=1,EE,E0030005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E00204EC,extended,21C6C284// Bailey Gate HP Increase
 patch=1,EE,21C6C280,extended,000004EC
 patch=1,EE,21C6C284,extended,000004EC
-//Disable Limit Form before Bailey (and during)
-patch=1,EE,E0040804,extended,0032BAE0//
-patch=1,EE,E0030001,extended,0032BAE4//
-patch=1,EE,E0020001,extended,0032BAE6//
-patch=1,EE,E0010001,extended,0032BAE8//
-patch=1,EE,0032F1FA,extended,00000000// Limit Form Disabled
-//Enable Limit Form after Bailey
-patch=1,EE,E0030D04,extended,0032BAE0//
-patch=1,EE,E0020003,extended,0032BAE4//
-patch=1,EE,E0010008,extended,0032BAE8//
-patch=1,EE,0032F1FA,extended,00000008// Limit Form Enabled
 //Corridors Fight
 patch=1,EE,E0131404,extended,0032BAE0//
 patch=1,EE,E0120056,extended,0032BAE8//
@@ -3290,11 +3280,13 @@ patch=1,EE,E002004E,extended,0032BAE8
 patch=1,EE,2032F078,extended,12120300// Sora and Beast only
 patch=1,EE,11C5A360,extended,00000162// Dark Thorn
 //Dark Thorn Fight
-patch=1,EE,E0460505,extended,0032BAE0
-patch=1,EE,E045004F,extended,0032BAE8
+patch=1,EE,E0480505,extended,0032BAE0
+patch=1,EE,E047004F,extended,0032BAE8
 patch=1,EE,2032F078,extended,12120300// Sora and Beast only
 patch=1,EE,11C5A16C,extended,000002CE// Beast (Chandelier)
 patch=1,EE,11C5A4D4,extended,000005F8// Luxord (Dark Thorn)
+patch=1,EE,E001006A,extended,0035DE20// Sorcerer Cutscene Skip
+patch=1,EE,0035DE20,extended,0000007A
 patch=1,EE,E00A0000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E00403ED,extended,01C6C4EC// If Max HP Slot 2 = 1005
 patch=1,EE,21C6C690,extended,64646464// Luxord's Resists 1
