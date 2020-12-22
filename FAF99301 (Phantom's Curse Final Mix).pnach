@@ -24,7 +24,7 @@ patch=1,EE,11D18DDE,extended,0000008A// Scan
 patch=1,EE,11D18DE0,extended,000001A5// MP Hastera
 patch=1,EE,11D18DE2,extended,00000052// Guard
 patch=1,EE,11D18DE4,extended,0000009E// Aerial Recovery
-patch=1,EE,11D18DE6,extended,00000002// Hi-Potion
+patch=1,EE,11D18DE6,extended,0000020C// Promise Charm
 patch=1,EE,11D18DE8,extended,00000002// Hi-Potion
 
 //-----------------------------------------
