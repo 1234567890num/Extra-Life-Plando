@@ -30,31 +30,31 @@ patch=1,EE,11D18DE8,extended,00000002// Hi-Potion
 //------------------------------------
 patch=1,EE,2032F254,extended,00000001 // BL Bitmask
 // DOOM CLOCK == 0
-patch=1,EE,E0020000,extended,0032EB00
+patch=1,EE,E1020000,extended,0032EB00
 patch=1,EE,41D11290,extended,00050001
 patch=1,EE,1E1E1E1E,extended,00000000 // BL30
 // DOOM CLOCK == 1
-patch=1,EE,E0020001,extended,0032EB00
+patch=1,EE,E1020001,extended,0032EB00
 patch=1,EE,41D11290,extended,00050001
 patch=1,EE,28282828,extended,00000000 // BL40
 // DOOM CLOCK == 2
-patch=1,EE,E0020002,extended,0032EB00
+patch=1,EE,E1020002,extended,0032EB00
 patch=1,EE,41D11290,extended,00050001
 patch=1,EE,32323232,extended,00000000 // BL50
 // DOOM CLOCK == 3
-patch=1,EE,E0020003,extended,0032EB00
+patch=1,EE,E1020003,extended,0032EB00
 patch=1,EE,41D11290,extended,00050001
 patch=1,EE,3C3C3C3C,extended,00000000 // BL60
 // DOOM CLOCK == 4
-patch=1,EE,E0020004,extended,0032EB00
+patch=1,EE,E1020004,extended,0032EB00
 patch=1,EE,41D11290,extended,00050001
 patch=1,EE,46464646,extended,00000000 // BL70
 // DOOM CLOCK == 5
-patch=1,EE,E0020005,extended,0032EB00
+patch=1,EE,E1020005,extended,0032EB00
 patch=1,EE,41D11290,extended,00050001
 patch=1,EE,50505050,extended,00000000 // BL80
 // DOOM CLOCK == 6
-patch=1,EE,E0020006,extended,0032EB00
+patch=1,EE,E1020006,extended,0032EB00
 patch=1,EE,41D11290,extended,00050001
 patch=1,EE,63636363,extended,00000000 // BL99
 
@@ -438,27 +438,27 @@ patch=1,EE,E01B2202,extended,0032BAE0
 patch=1,EE,E01A009D,extended,0032BAE8
 patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C59E24,extended,0000090F// Pete
-patch=1,EE,E0030000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1030000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E0020165,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000165
 patch=1,EE,21C6C4EC,extended,00000165
-patch=1,EE,E0030001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1030001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E00201C0,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,000001C0
 patch=1,EE,21C6C4EC,extended,000001C0
-patch=1,EE,E0030002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1030002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E0020215,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000215
 patch=1,EE,21C6C4EC,extended,00000215
-patch=1,EE,E0030003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1030003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E0020270,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000270
 patch=1,EE,21C6C4EC,extended,00000270
-patch=1,EE,E0030004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1030004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00202C5,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,000002C5
 patch=1,EE,21C6C4EC,extended,000002C5
-patch=1,EE,E0030005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1030005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E0020320,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000320
 patch=1,EE,21C6C4EC,extended,00000320
@@ -472,27 +472,27 @@ patch=1,EE,11C26EF8,extended,00000000// Axel II AI Enable Firewall
 patch=1,EE,E01A1402,extended,0032BAE0
 patch=1,EE,E0190089,extended,0032BAE8
 patch=1,EE,11C5AF88,extended,000008FA// Tifa
-patch=1,EE,E0030000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1030000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E00201C0,extended,21C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,000001C0
 patch=1,EE,21C6C4EC,extended,000001C0
-patch=1,EE,E0030001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1030001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E002024C,extended,21C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,0000024C
 patch=1,EE,21C6C4EC,extended,0000024C
-patch=1,EE,E0030002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1030002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E00202BC,extended,21C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,000002BC
 patch=1,EE,21C6C4EC,extended,000002BC
-patch=1,EE,E0030003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1030003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E0020333,extended,21C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000333
 patch=1,EE,21C6C4EC,extended,00000333
-patch=1,EE,E0030004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1030004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00203A3,extended,21C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,000003A3
 patch=1,EE,21C6C4EC,extended,000003A3
-patch=1,EE,E0030005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1030005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E002041A,extended,21C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,0000041A
 patch=1,EE,21C6C4EC,extended,0000041A
@@ -629,7 +629,7 @@ patch=1,EE,E03F003B,extended,0032BAE8
 patch=1,EE,11C4FF38,extended,00000000// Remove MCP Walls
 patch=1,EE,11C4FFB8,extended,00000728// Sark Giant -> Cannon Gun
 patch=1,EE,11C4FF78,extended,00000015// MCP Boss -> Shan Yu
-patch=1,EE,E0090000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1090000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E002002F,extended,01C6C4EC// If Max HP Slot 2 = 47
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
@@ -639,7 +639,7 @@ patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
 patch=1,EE,E002002F,extended,01C6C01C// If Max HP Slot 4 = 47
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0090001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1090001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E002003B,extended,01C6C4EC// If Max HP Slot 2 = 59
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
@@ -649,7 +649,7 @@ patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
 patch=1,EE,E002003B,extended,01C6C01C// If Max HP Slot 4 = 59
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0090002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1090002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E0020046,extended,01C6C4EC// If Max HP Slot 2 = 70
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
@@ -659,7 +659,7 @@ patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
 patch=1,EE,E0020046,extended,01C6C01C// If Max HP Slot 4 = 70
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0090003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1090003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E0020052,extended,01C6C4EC// If Max HP Slot 2 = 82
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
@@ -669,7 +669,7 @@ patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
 patch=1,EE,E0020052,extended,01C6C01C// If Max HP Slot 4 = 82
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0090004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1090004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E002005E,extended,01C6C4EC// If Max HP Slot 2 = 94
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
@@ -679,7 +679,7 @@ patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
 patch=1,EE,E002005E,extended,01C6C01C// If Max HP Slot 4 = 94
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0090005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1090005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E0020069,extended,01C6C4EC// If Max HP Slot 2 = 105
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
@@ -928,7 +928,7 @@ patch=1,EE,10347D34,extended,0000006E // The Encounter
 patch=1,EE,11C576B4,extended,0000035E // Sark (was Pete)
 patch=1,EE,11C56BB0,extended,000004B8 // Hostile Program A (was Puzzle Piece by pier)                        
 patch=1,EE,11C56B70,extended,000004B8 // Hostile Program B (was Puzzle Piece above tree)
-patch=1,EE,E0260000,extended,0032EB00 // DOOM CLOCK == 0
+patch=1,EE,E1260000,extended,0032EB00 // DOOM CLOCK == 0
 patch=1,EE,E005014F,extended,01C6C4EC // Sark in Slot 2
 patch=1,EE,11C6C4E8,extended,0000029E
 patch=1,EE,11C6C4EC,extended,0000029E
@@ -967,7 +967,7 @@ patch=1,EE,11C6BB48,extended,000000C9
 patch=1,EE,11C6BB4C,extended,000000C9
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
-patch=1,EE,E0260001,extended,0032EB00 // DOOM CLOCK == 1
+patch=1,EE,E1260001,extended,0032EB00 // DOOM CLOCK == 1
 patch=1,EE,E00501A4,extended,01C6C4EC // Sark in Slot 2
 patch=1,EE,11C6C4E8,extended,00000348
 patch=1,EE,11C6C4EC,extended,00000348
@@ -1006,7 +1006,7 @@ patch=1,EE,11C6BB48,extended,000000FC
 patch=1,EE,11C6BB4C,extended,000000FC
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
-patch=1,EE,E0260002,extended,0032EB00 // DOOM CLOCK == 2
+patch=1,EE,E1260002,extended,0032EB00 // DOOM CLOCK == 2
 patch=1,EE,E00501F4,extended,01C6C4EC // Sark in Slot 2
 patch=1,EE,11C6C4E8,extended,000003E8
 patch=1,EE,11C6C4EC,extended,000003E8
@@ -1045,7 +1045,7 @@ patch=1,EE,11C6BB48,extended,0000012C
 patch=1,EE,11C6BB4C,extended,0000012C
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
-patch=1,EE,E0260003,extended,0032EB00 // DOOM CLOCK == 3
+patch=1,EE,E1260003,extended,0032EB00 // DOOM CLOCK == 3
 patch=1,EE,E0050249,extended,01C6C4EC // Sark in Slot 2
 patch=1,EE,11C6C4E8,extended,00000492
 patch=1,EE,11C6C4EC,extended,00000492
@@ -1084,7 +1084,7 @@ patch=1,EE,11C6BB48,extended,0000015F
 patch=1,EE,11C6BB4C,extended,0000015F
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
-patch=1,EE,E0260004,extended,0032EB00 // DOOM CLOCK == 4
+patch=1,EE,E1260004,extended,0032EB00 // DOOM CLOCK == 4
 patch=1,EE,E0050299,extended,01C6C4EC // Sark in Slot 2
 patch=1,EE,11C6C4E8,extended,00000532
 patch=1,EE,11C6C4EC,extended,00000532
@@ -1123,7 +1123,7 @@ patch=1,EE,11C6BB48,extended,0000018F
 patch=1,EE,11C6BB4C,extended,0000018F
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
-patch=1,EE,E0260005,extended,0032EB00 // DOOM CLOCK == 5
+patch=1,EE,E1260005,extended,0032EB00 // DOOM CLOCK == 5
 patch=1,EE,E00502EE,extended,01C6C4EC // Sark in Slot 2
 patch=1,EE,11C6C4E8,extended,000005DC
 patch=1,EE,11C6C4EC,extended,000005DC
@@ -1191,7 +1191,7 @@ patch=1,EE,21C6C694,extended,00641932 // Yuffie Resists 2 (75% Light, 50% Dark)
 patch=1,EE,11C56F28,extended,00000000 // Remove Steamboat
 patch=1,EE,11C56EE8,extended,00000000 // Remove Cornerstone
 patch=1,EE,11C56EA8,extended,00000000 // Remove Pete
-patch=1,EE,E00D0000,extended,0032EB00 // DOOM CLOCK == 0
+patch=1,EE,E10D0000,extended,0032EB00 // DOOM CLOCK == 0
 patch=1,EE,E00C0043,extended,01C6C01C // Set HP
 patch=1,EE,11C6C018,extended,000000FF // Butt Current
 patch=1,EE,11C6C01C,extended,000000FF // Butt Max
@@ -1205,7 +1205,7 @@ patch=1,EE,11C6C4E8,extended,000000FF // Yuffie Current
 patch=1,EE,11C6C4EC,extended,000000FF // Yuffie Max
 patch=1,EE,11C6C670,extended,0000000E // Yuffie STR
 patch=1,EE,11C6C674,extended,00000005 // Yuffie DEF
-patch=1,EE,E00D0001,extended,0032EB00 // DOOM CLOCK == 1
+patch=1,EE,E10D0001,extended,0032EB00 // DOOM CLOCK == 1
 patch=1,EE,E00C0054,extended,01C6C01C // Set HP
 patch=1,EE,11C6C018,extended,000001FF // Butt Current
 patch=1,EE,11C6C01C,extended,000001FF // Butt Max
@@ -1219,7 +1219,7 @@ patch=1,EE,11C6C4E8,extended,000001FF // Yuffie Current
 patch=1,EE,11C6C4EC,extended,000001FF // Yuffie Max
 patch=1,EE,11C6C670,extended,00000012 // Yuffie STR
 patch=1,EE,11C6C674,extended,00000007 // Yuffie DEF
-patch=1,EE,E00D0002,extended,0032EB00 // DOOM CLOCK == 2
+patch=1,EE,E10D0002,extended,0032EB00 // DOOM CLOCK == 2
 patch=1,EE,E00C0064,extended,01C6C01C // Set HP
 patch=1,EE,11C6C018,extended,000002FF // Butt Current
 patch=1,EE,11C6C01C,extended,000002FF // Butt Max
@@ -1233,7 +1233,7 @@ patch=1,EE,11C6C4E8,extended,000002FF // Yuffie Current
 patch=1,EE,11C6C4EC,extended,000002FF // Yuffie Max
 patch=1,EE,11C6C670,extended,00000016 // Yuffie STR
 patch=1,EE,11C6C674,extended,00000009 // Yuffie DEF
-patch=1,EE,E00D0003,extended,0032EB00 // DOOM CLOCK == 3
+patch=1,EE,E10D0003,extended,0032EB00 // DOOM CLOCK == 3
 patch=1,EE,E00C0075,extended,01C6C01C // Set HP
 patch=1,EE,11C6C018,extended,000003FF // Butt Current
 patch=1,EE,11C6C01C,extended,000003FF // Butt Max
@@ -1247,7 +1247,7 @@ patch=1,EE,11C6C4E8,extended,000003FF // Yuffie Current
 patch=1,EE,11C6C4EC,extended,000003FF // Yuffie Max
 patch=1,EE,11C6C670,extended,0000001B // Yuffie STR
 patch=1,EE,11C6C674,extended,0000000A // Yuffie DEF
-patch=1,EE,E00D0004,extended,0032EB00 // DOOM CLOCK == 4
+patch=1,EE,E10D0004,extended,0032EB00 // DOOM CLOCK == 4
 patch=1,EE,E00C0085,extended,01C6C01C // Set HP
 patch=1,EE,11C6C018,extended,000004FF // Butt Current
 patch=1,EE,11C6C01C,extended,000004FF // Butt Max
@@ -1261,7 +1261,7 @@ patch=1,EE,11C6C4E8,extended,000004FF // Yuffie Current
 patch=1,EE,11C6C4EC,extended,000004FF // Yuffie Max
 patch=1,EE,11C6C670,extended,0000001F // Yuffie STR
 patch=1,EE,11C6C674,extended,0000000B // Yuffie DEF
-patch=1,EE,E00D0005,extended,0032EB00 // DOOM CLOCK == 5
+patch=1,EE,E10D0005,extended,0032EB00 // DOOM CLOCK == 5
 patch=1,EE,E00C0096,extended,01C6C01C // Set HP
 patch=1,EE,11C6C018,extended,000005FF // Butt Current
 patch=1,EE,11C6C01C,extended,000005FF // Butt Max
@@ -1758,27 +1758,27 @@ patch=1,EE,11C45FB0,extended,00000078// NeoShadow (4th Wave; Mid-Right)
 patch=1,EE,11C45FF0,extended,00000078// NeoShadow (4th Wave; Left)
 patch=1,EE,11C46030,extended,00000078// NeoShadow (4th Wave; Middle)
 patch=1,EE,11C46070,extended,00000078// NeoShadow (4th Wave; Right)
-patch=1,EE,E0030000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1030000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E0020233,extended,21C6C284// Bailey Gate HP Increase
 patch=1,EE,21C6C280,extended,00000233
 patch=1,EE,21C6C284,extended,00000233
-patch=1,EE,E0030001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1030001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E0020314,extended,21C6C284// Bailey Gate HP Increase
 patch=1,EE,21C6C280,extended,00000314
 patch=1,EE,21C6C284,extended,00000314
-patch=1,EE,E0030002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1030002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E0020348,extended,21C6C284// Bailey Gate HP Increase
 patch=1,EE,21C6C280,extended,00000348
 patch=1,EE,21C6C284,extended,00000348
-patch=1,EE,E0030003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1030003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E00203D7,extended,21C6C284// Bailey Gate HP Increase
 patch=1,EE,21C6C280,extended,000003D7
 patch=1,EE,21C6C284,extended,000003D7
-patch=1,EE,E0030004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1030004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E002045D,extended,21C6C284// Bailey Gate HP Increase
 patch=1,EE,21C6C280,extended,0000045D
 patch=1,EE,21C6C284,extended,0000045D
-patch=1,EE,E0030005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1030005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E00204EC,extended,21C6C284// Bailey Gate HP Increase
 patch=1,EE,21C6C280,extended,000004EC
 patch=1,EE,21C6C284,extended,000004EC
@@ -2300,7 +2300,7 @@ patch=1,EE,21C6BCF0,extended,64646464 // Slot 6 (Banzai) Resists 1
 patch=1,EE,21C6BCF4,extended,00647D64 // Slot 6 (Banzai) Resists 2
 patch=1,EE,21C6BA88,extended,96969632 // Slot 7 (Ed) Resists 1
 patch=1,EE,21C6BA8C,extended,00649696 // Slot 7 (Ed) Resists 2
-patch=1,EE,E00D0000,extended,0032EB00 // DOOM CLOCK == 0
+patch=1,EE,E10D0000,extended,0032EB00 // DOOM CLOCK == 0
 patch=1,EE,E00C01F4,extended,01C6BB4C
 patch=1,EE,11C6BDB0,extended,000001F4 // Slot 5 (Shenzi) Current HP
 patch=1,EE,11C6BDB4,extended,000001F4 // Slot 5 (Shenzi) Max HP
@@ -2314,7 +2314,7 @@ patch=1,EE,11C6B8E0,extended,0000028A // Slot 7 (Ed) Current HP
 patch=1,EE,11C6B8E4,extended,0000028A // Slot 7 (Ed) Max HP
 patch=1,EE,11C6BA68,extended,0000000A // Slot 7 (Ed) STR
 patch=1,EE,11C6BA6C,extended,00000010 // Slot 7 (Ed) DEF
-patch=1,EE,E00D0001,extended,0032EB00 // DOOM CLOCK == 1
+patch=1,EE,E10D0001,extended,0032EB00 // DOOM CLOCK == 1
 patch=1,EE,E00C01F4,extended,01C6BB4C
 patch=1,EE,11C6BDB0,extended,0000028A // Slot 5 (Shenzi) Current HP
 patch=1,EE,11C6BDB4,extended,0000028A // Slot 5 (Shenzi) Max HP
@@ -2328,7 +2328,7 @@ patch=1,EE,11C6B8E0,extended,00000320 // Slot 7 (Ed) Current HP
 patch=1,EE,11C6B8E4,extended,00000320 // Slot 7 (Ed) Max HP
 patch=1,EE,11C6BA68,extended,00000010 // Slot 7 (Ed) STR
 patch=1,EE,11C6BA6C,extended,00000016 // Slot 7 (Ed) DEF
-patch=1,EE,E00D0002,extended,0032EB00 // DOOM CLOCK == 2
+patch=1,EE,E10D0002,extended,0032EB00 // DOOM CLOCK == 2
 patch=1,EE,E00C01F4,extended,01C6BB4C
 patch=1,EE,11C6BDB0,extended,00000320 // Slot 5 (Shenzi) Current HP
 patch=1,EE,11C6BDB4,extended,00000320 // Slot 5 (Shenzi) Max HP
@@ -2342,7 +2342,7 @@ patch=1,EE,11C6B8E0,extended,000003B6 // Slot 7 (Ed) Current HP
 patch=1,EE,11C6B8E4,extended,000003B6 // Slot 7 (Ed) Max HP
 patch=1,EE,11C6BA68,extended,00000016 // Slot 7 (Ed) STR
 patch=1,EE,11C6BA6C,extended,0000001C // Slot 7 (Ed) DEF
-patch=1,EE,E00D0003,extended,0032EB00 // DOOM CLOCK == 3
+patch=1,EE,E10D0003,extended,0032EB00 // DOOM CLOCK == 3
 patch=1,EE,E00C01F4,extended,01C6BB4C
 patch=1,EE,11C6BDB0,extended,000003B6 // Slot 5 (Shenzi) Current HP
 patch=1,EE,11C6BDB4,extended,000003B6 // Slot 5 (Shenzi) Max HP
@@ -2356,7 +2356,7 @@ patch=1,EE,11C6B8E0,extended,0000044C // Slot 7 (Ed) Current HP
 patch=1,EE,11C6B8E4,extended,0000044C // Slot 7 (Ed) Max HP
 patch=1,EE,11C6BA68,extended,0000001C // Slot 7 (Ed) STR
 patch=1,EE,11C6BA6C,extended,00000022 // Slot 7 (Ed) DEF
-patch=1,EE,E00D0004,extended,0032EB00 // DOOM CLOCK == 4
+patch=1,EE,E10D0004,extended,0032EB00 // DOOM CLOCK == 4
 patch=1,EE,E00C01F4,extended,01C6BB4C
 patch=1,EE,11C6BDB0,extended,0000044C // Slot 5 (Shenzi) Current HP
 patch=1,EE,11C6BDB4,extended,0000044C // Slot 5 (Shenzi) Max HP
@@ -2370,7 +2370,7 @@ patch=1,EE,11C6B8E0,extended,000004E2 // Slot 7 (Ed) Current HP
 patch=1,EE,11C6B8E4,extended,000004E2 // Slot 7 (Ed) Max HP
 patch=1,EE,11C6BA68,extended,00000022 // Slot 7 (Ed) STR
 patch=1,EE,11C6BA6C,extended,00000028 // Slot 7 (Ed) DEF
-patch=1,EE,E00D0005,extended,0032EB00 // DOOM CLOCK == 5
+patch=1,EE,E10D0005,extended,0032EB00 // DOOM CLOCK == 5
 patch=1,EE,E00C01F4,extended,01C6BB4C
 patch=1,EE,11C6BDB0,extended,000004E2 // Slot 5 (Shenzi) Current HP
 patch=1,EE,11C6BDB4,extended,000004E2 // Slot 5 (Shenzi) Max HP
@@ -2388,27 +2388,27 @@ patch=1,EE,11C6BA6C,extended,0000002E // Slot 7 (Ed) DEF
 patch=1,EE,E01A0E0A,extended,0032BAE0
 patch=1,EE,E0190037,extended,0032BAE8
 patch=1,EE,11C5A74C,extended,000008F8 // Leon
-patch=1,EE,E0030000,extended,0032EB00 // DOOM CLOCK == 0
+patch=1,EE,E1030000,extended,0032EB00 // DOOM CLOCK == 0
 patch=1,EE,E0020218,extended,21C6C01C // Set HP
 patch=1,EE,21C6C018,extended,00000218
 patch=1,EE,21C6C01C,extended,00000218
-patch=1,EE,E0030001,extended,0032EB00 // DOOM CLOCK == 1
+patch=1,EE,E1030001,extended,0032EB00 // DOOM CLOCK == 1
 patch=1,EE,E00202A0,extended,21C6C01C // Set HP
 patch=1,EE,21C6C018,extended,000002A0
 patch=1,EE,21C6C01C,extended,000002A0
-patch=1,EE,E0030002,extended,0032EB00 // DOOM CLOCK == 2
+patch=1,EE,E1030002,extended,0032EB00 // DOOM CLOCK == 2
 patch=1,EE,E0020320,extended,21C6C01C // Set HP
 patch=1,EE,21C6C018,extended,00000320
 patch=1,EE,21C6C01C,extended,00000320
-patch=1,EE,E0030003,extended,0032EB00 // DOOM CLOCK == 3
+patch=1,EE,E1030003,extended,0032EB00 // DOOM CLOCK == 3
 patch=1,EE,E00203A8,extended,21C6C01C // Set HP
 patch=1,EE,21C6C018,extended,000003A8
 patch=1,EE,21C6C01C,extended,000003A8
-patch=1,EE,E0030004,extended,0032EB00 // DOOM CLOCK == 4
+patch=1,EE,E1030004,extended,0032EB00 // DOOM CLOCK == 4
 patch=1,EE,E0020428,extended,21C6C01C // Set HP
 patch=1,EE,21C6C018,extended,00000428
 patch=1,EE,21C6C01C,extended,00000428
-patch=1,EE,E0030005,extended,0032EB00 // DOOM CLOCK == 5
+patch=1,EE,E1030005,extended,0032EB00 // DOOM CLOCK == 5
 patch=1,EE,E00204B0,extended,21C6C01C // Set HP
 patch=1,EE,21C6C018,extended,000004B0
 patch=1,EE,21C6C01C,extended,000004B0
@@ -2418,27 +2418,27 @@ patch=1,EE,E01B003B,extended,0032BAE8
 patch=1,EE,11C59F80,extended,000006C9 // Saix
 patch=1,EE,E0010001,extended,01C6C280 // If HP = 1 -> HP = 0
 patch=1,EE,21C6C280,extended,00000000 // Saix normally can't be killed while berserk
-patch=1,EE,E0030000,extended,0032EB00 // DOOM CLOCK == 0
+patch=1,EE,E1030000,extended,0032EB00 // DOOM CLOCK == 0
 patch=1,EE,E0020043,extended,31C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000043
 patch=1,EE,21C6C284,extended,00000043
-patch=1,EE,E0030001,extended,0032EB00 // DOOM CLOCK == 1
+patch=1,EE,E1030001,extended,0032EB00 // DOOM CLOCK == 1
 patch=1,EE,E0020054,extended,31C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000054
 patch=1,EE,21C6C284,extended,00000054
-patch=1,EE,E0030002,extended,0032EB00 // DOOM CLOCK == 2
+patch=1,EE,E1030002,extended,0032EB00 // DOOM CLOCK == 2
 patch=1,EE,E0020064,extended,31C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000064
 patch=1,EE,21C6C284,extended,00000064
-patch=1,EE,E0030003,extended,0032EB00 // DOOM CLOCK == 3
+patch=1,EE,E1030003,extended,0032EB00 // DOOM CLOCK == 3
 patch=1,EE,E0020075,extended,31C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000075
 patch=1,EE,21C6C284,extended,00000075
-patch=1,EE,E0030004,extended,0032EB00 // DOOM CLOCK == 4
+patch=1,EE,E1030004,extended,0032EB00 // DOOM CLOCK == 4
 patch=1,EE,E0020085,extended,31C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000085
 patch=1,EE,21C6C284,extended,00000085
-patch=1,EE,E0030005,extended,0032EB00 // DOOM CLOCK == 5
+patch=1,EE,E1030005,extended,0032EB00 // DOOM CLOCK == 5
 patch=1,EE,E0020096,extended,31C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000096
 patch=1,EE,21C6C284,extended,00000096
@@ -2602,27 +2602,27 @@ patch=1,EE,E01B0072,extended,0032BAE8
 patch=1,EE,11C4EDF8,extended,000008FB// Yuffie
 patch=1,EE,11C4EF2C,extended,0000007C// Boulder -> Crescendo
 patch=1,EE,11C4EF6C,extended,0000007C// Boulder -> Crescendo
-patch=1,EE,E0030000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1030000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E00200DA,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,000000DA//
 patch=1,EE,11C6C284,extended,000000DA//
-patch=1,EE,E0030001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1030001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E0020111,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,00000111//
 patch=1,EE,11C6C284,extended,00000111//
-patch=1,EE,E0030002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1030002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E0020141,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,00000141//
 patch=1,EE,11C6C284,extended,00000141//
-patch=1,EE,E0030003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1030003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E002017D,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,0000017D//
 patch=1,EE,11C6C284,extended,0000017D//
-patch=1,EE,E0030004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1030004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00201B1,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,000001B1//
 patch=1,EE,11C6C284,extended,000001B1//
-patch=1,EE,E0030005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1030005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E00201E7,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,000001E7//
 patch=1,EE,11C6C284,extended,000001E7//
@@ -2887,7 +2887,7 @@ patch=1,EE,11C32974,extended,00000647// Pete TR
 patch=1,EE,11C32994,extended,00000001// Pete TR AI Enable About Face
 patch=1,EE,E0010090,extended,0035DE20// Volcanic Cutscene Fix
 patch=1,EE,0035DE20,extended,000000B5
-patch=1,EE,E0090000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1090000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E00200A8,extended,01C6C4EC// Old Timey Pete's HP Slot 2
 patch=1,EE,11C6C4E8,extended,000001F8
 patch=1,EE,11C6C4EC,extended,000001F8
@@ -2897,7 +2897,7 @@ patch=1,EE,11C6C284,extended,000001F8
 patch=1,EE,E00200A8,extended,01C6C01C// Old Timey Pete's HP Slot 4
 patch=1,EE,11C6C018,extended,000001F8
 patch=1,EE,11C6C01C,extended,000001F8
-patch=1,EE,E0090001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1090001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E00200D2,extended,01C6C4EC// Old Timey Pete's HP Slot 2
 patch=1,EE,11C6C4E8,extended,00000276
 patch=1,EE,11C6C4EC,extended,00000276
@@ -2907,7 +2907,7 @@ patch=1,EE,11C6C284,extended,00000276
 patch=1,EE,E00200D2,extended,01C6C01C// Old Timey Pete's HP Slot 4
 patch=1,EE,11C6C018,extended,00000276
 patch=1,EE,11C6C01C,extended,00000276
-patch=1,EE,E0090002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1090002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E00200FA,extended,01C6C4EC// Old Timey Pete's HP Slot 2
 patch=1,EE,11C6C4E8,extended,000002EE
 patch=1,EE,11C6C4EC,extended,000002EE
@@ -2917,7 +2917,7 @@ patch=1,EE,11C6C284,extended,000002EE
 patch=1,EE,E00200FA,extended,01C6C01C// Old Timey Pete's HP Slot 4
 patch=1,EE,11C6C018,extended,000002EE
 patch=1,EE,11C6C01C,extended,000002EE
-patch=1,EE,E0090003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1090003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E0020125,extended,01C6C4EC// Old Timey Pete's HP Slot 2
 patch=1,EE,11C6C4E8,extended,0000036F
 patch=1,EE,11C6C4EC,extended,0000036F
@@ -2927,7 +2927,7 @@ patch=1,EE,11C6C284,extended,0000036F
 patch=1,EE,E0020125,extended,01C6C01C// Old Timey Pete's HP Slot 4
 patch=1,EE,11C6C018,extended,0000036F
 patch=1,EE,11C6C01C,extended,0000036F
-patch=1,EE,E0090004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1090004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E002014D,extended,01C6C4EC// Old Timey Pete's HP Slot 2
 patch=1,EE,11C6C4E8,extended,000003E7
 patch=1,EE,11C6C4EC,extended,000003E7
@@ -2937,7 +2937,7 @@ patch=1,EE,11C6C284,extended,000003E7
 patch=1,EE,E002014D,extended,01C6C01C// Old Timey Pete's HP Slot 4
 patch=1,EE,11C6C018,extended,000003E7
 patch=1,EE,11C6C01C,extended,000003E7
-patch=1,EE,E0090005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1090005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E0020177,extended,01C6C4EC// Old Timey Pete's HP Slot 2
 patch=1,EE,11C6C4E8,extended,00000465
 patch=1,EE,11C6C4EC,extended,00000465
@@ -3175,7 +3175,7 @@ patch=1,EE,11C554B0,extended,000005DE// Shadow (3rd Wave; Back-Left)
 patch=1,EE,11C554F0,extended,000005DE// Magnum Loader (3rd Wave; Back-Right)
 patch=1,EE,11C55530,extended,000005DE// Magnum Loader(3rd Wave; Front-Middle)
 patch=1,EE,11C55570,extended,000005DE// Magnum Loader (3rd Wave; Back-Middle)
-patch=1,EE,E0090000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1090000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E00200EB,extended,01C6C284// Set HP Slot 3
 patch=1,EE,21C6C280,extended,000001D6
 patch=1,EE,21C6C284,extended,000001D6
@@ -3185,7 +3185,7 @@ patch=1,EE,21C6C01C,extended,000001D6
 patch=1,EE,E00200EB,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB0,extended,000001D6
 patch=1,EE,21C6BDB4,extended,000001D6
-patch=1,EE,E0090001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1090001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E0020126,extended,01C6C284// Set HP Slot 3
 patch=1,EE,21C6C280,extended,0000024C
 patch=1,EE,21C6C284,extended,0000024C
@@ -3195,7 +3195,7 @@ patch=1,EE,21C6C01C,extended,0000024C
 patch=1,EE,E0020126,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB0,extended,0000024C
 patch=1,EE,21C6BDB4,extended,0000024C
-patch=1,EE,E0090002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1090002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E002015E,extended,01C6C284// Set HP Slot 3
 patch=1,EE,21C6C280,extended,000002BC
 patch=1,EE,21C6C284,extended,000002BC
@@ -3205,7 +3205,7 @@ patch=1,EE,21C6C01C,extended,000002BC
 patch=1,EE,E002015E,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB0,extended,000002BC
 patch=1,EE,21C6BDB4,extended,000002BC
-patch=1,EE,E0090003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1090003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E002019A,extended,01C6C284// Set HP Slot 3
 patch=1,EE,21C6C280,extended,00000334
 patch=1,EE,21C6C284,extended,00000334
@@ -3215,7 +3215,7 @@ patch=1,EE,21C6C01C,extended,00000334
 patch=1,EE,E002019A,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB0,extended,00000334
 patch=1,EE,21C6BDB4,extended,00000334
-patch=1,EE,E0090004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1090004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00201D2,extended,01C6C284// Set HP Slot 3
 patch=1,EE,21C6C280,extended,000003A4
 patch=1,EE,21C6C284,extended,000003A4
@@ -3225,7 +3225,7 @@ patch=1,EE,21C6C01C,extended,000003A4
 patch=1,EE,E00201D2,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB0,extended,000003A4
 patch=1,EE,21C6BDB4,extended,000003A4
-patch=1,EE,E0090005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1090005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E002020D,extended,01C6C284// Set HP Slot 3
 patch=1,EE,21C6C280,extended,0000041A
 patch=1,EE,21C6C284,extended,0000041A
@@ -3250,27 +3250,27 @@ patch=1,EE,11C4CBA0,extended,0000013C// Sorcerer (Beast)
 patch=1,EE,11C4CBE0,extended,0000031B// Demyx (Cogsworth)
 patch=1,EE,E001001A,extended,0035DE20// Sorcerer Cutscene Skip
 patch=1,EE,0035DE20,extended,000000A1
-patch=1,EE,E0030000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E1030000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E002006C,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000003CC
 patch=1,EE,21C6C284,extended,000003CC
-patch=1,EE,E0030001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E1030001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E0020087,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000004BF
 patch=1,EE,21C6C284,extended,000004BF
-patch=1,EE,E0030002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E1030002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E00200A0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000005A0
 patch=1,EE,21C6C284,extended,000005A0
-patch=1,EE,E0030003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E1030003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E00200BC,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E0030004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E1030004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00200D5,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E0030005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E1030005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E00200F0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,00000870
 patch=1,EE,21C6C284,extended,00000870
@@ -3287,7 +3287,7 @@ patch=1,EE,11C5A16C,extended,000002CE// Beast (Chandelier)
 patch=1,EE,11C5A4D4,extended,000005F8// Luxord (Dark Thorn)
 patch=1,EE,E001006A,extended,0035DE20// Sorcerer Cutscene Skip
 patch=1,EE,0035DE20,extended,0000007A
-patch=1,EE,E00A0000,extended,0032EB00// DOOM CLOCK == 0
+patch=1,EE,E10A0000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E00403ED,extended,01C6C4EC// If Max HP Slot 2 = 1005
 patch=1,EE,21C6C690,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C694,extended,00C86464// Luxord's Resists 2
@@ -3298,7 +3298,7 @@ patch=1,EE,21C6C428,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
-patch=1,EE,E00A0001,extended,0032EB00// DOOM CLOCK == 1
+patch=1,EE,E10A0001,extended,0032EB00// DOOM CLOCK == 1
 patch=1,EE,E00404EC,extended,01C6C4EC// If Max HP Slot 2 = 1260
 patch=1,EE,21C6C690,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C694,extended,00C86464// Luxord's Resists 2
@@ -3309,7 +3309,7 @@ patch=1,EE,21C6C428,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
-patch=1,EE,E00A0002,extended,0032EB00// DOOM CLOCK == 2
+patch=1,EE,E10A0002,extended,0032EB00// DOOM CLOCK == 2
 patch=1,EE,E00405DC,extended,01C6C4EC// If Max HP Slot 2 = 1500
 patch=1,EE,21C6C690,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C694,extended,00C86464// Luxord's Resists 2
@@ -3320,7 +3320,7 @@ patch=1,EE,21C6C428,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
-patch=1,EE,E00A0003,extended,0032EB00// DOOM CLOCK == 3
+patch=1,EE,E10A0003,extended,0032EB00// DOOM CLOCK == 3
 patch=1,EE,E00406DB,extended,01C6C4EC// If Max HP Slot 2 = 1755
 patch=1,EE,21C6C690,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C694,extended,00C86464// Luxord's Resists 2
@@ -3331,7 +3331,7 @@ patch=1,EE,21C6C428,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
-patch=1,EE,E00A0004,extended,0032EB00// DOOM CLOCK == 4
+patch=1,EE,E10A0004,extended,0032EB00// DOOM CLOCK == 4
 patch=1,EE,E00407CB,extended,01C6C4EC// If Max HP Slot 2 = 1995
 patch=1,EE,21C6C690,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C694,extended,00C86464// Luxord's Resists 2
@@ -3342,7 +3342,7 @@ patch=1,EE,21C6C428,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
-patch=1,EE,E00A0005,extended,0032EB00// DOOM CLOCK == 5
+patch=1,EE,E10A0005,extended,0032EB00// DOOM CLOCK == 5
 patch=1,EE,E00408CA,extended,01C6C4EC// If Max HP Slot 2 = 2250
 patch=1,EE,21C6C690,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C694,extended,00C86464// Luxord's Resists 2
@@ -3591,7 +3591,7 @@ patch=1,EE,21D48FA4,extended,41400000
 patch=1,EE,11C4BEB0,extended,00000137 // Sniper  (Hayabusa)
 patch=1,EE,11C4BE70,extended,00000136 // Samurai (Shan Yu)
 patch=1,EE,11C98E4C,extended,00000003 // Samurai Marker
-patch=1,EE,E0240000,extended,0032EB00 // DOOM CLOCK == 0
+patch=1,EE,E1240000,extended,0032EB00 // DOOM CLOCK == 0
 patch=1,EE,E00B0043,extended,01C6C4EC // Door on Slot 2
 patch=1,EE,E008006C,extended,01C6C284 // Set HP
 patch=1,EE,21C6C280,extended,000001B0
@@ -3628,7 +3628,7 @@ patch=1,EE,21C6BCF0,extended,32323264 // Samurai's Resists
 patch=1,EE,21C6BCF4,extended,00006432
 patch=1,EE,E0010000,extended,01C6BDB0 // When Sniper is dead
 patch=1,EE,21C6BCF4,extended,00C86432
-patch=1,EE,E0240001,extended,0032EB00 // DOOM CLOCK == 1
+patch=1,EE,E1240001,extended,0032EB00 // DOOM CLOCK == 1
 patch=1,EE,E00B0054,extended,01C6C4EC // Door on Slot 2
 patch=1,EE,E0080087,extended,01C6C284 // Set HP
 patch=1,EE,21C6C280,extended,0000021C
@@ -3665,7 +3665,7 @@ patch=1,EE,21C6BCF0,extended,32323264 // Samurai's Resists
 patch=1,EE,21C6BCF4,extended,00006432
 patch=1,EE,E0010000,extended,01C6BDB0 // When Sniper is dead
 patch=1,EE,21C6BCF4,extended,00C86432
-patch=1,EE,E0240002,extended,0032EB00 // DOOM CLOCK == 2
+patch=1,EE,E1240002,extended,0032EB00 // DOOM CLOCK == 2
 patch=1,EE,E00B0064,extended,01C6C4EC // Door on Slot 2
 patch=1,EE,E00800A0,extended,01C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000280
@@ -3702,7 +3702,7 @@ patch=1,EE,21C6BCF0,extended,32323264 // Samurai's Resists
 patch=1,EE,21C6BCF4,extended,00006432
 patch=1,EE,E0010000,extended,01C6BDB0 // When Sniper is dead
 patch=1,EE,21C6BCF4,extended,00C86432
-patch=1,EE,E0240003,extended,0032EB00 // DOOM CLOCK == 3
+patch=1,EE,E1240003,extended,0032EB00 // DOOM CLOCK == 3
 patch=1,EE,E00B0075,extended,01C6C4EC // Door on Slot 2
 patch=1,EE,E00800BC,extended,01C6C284 // Set HP
 patch=1,EE,21C6C280,extended,000002F0
@@ -3739,7 +3739,7 @@ patch=1,EE,21C6BCF0,extended,32323264 // Samurai's Resists
 patch=1,EE,21C6BCF4,extended,00006432
 patch=1,EE,E0010000,extended,01C6BDB0 // When Sniper is dead
 patch=1,EE,21C6BCF4,extended,00C86432
-patch=1,EE,E0240004,extended,0032EB00 // DOOM CLOCK == 4
+patch=1,EE,E1240004,extended,0032EB00 // DOOM CLOCK == 4
 patch=1,EE,E00B0085,extended,01C6C4EC // Door on Slot 2
 patch=1,EE,E00800D5,extended,01C6C284 // Set HP
 patch=1,EE,21C6C280,extended,00000354
@@ -3776,7 +3776,7 @@ patch=1,EE,21C6BCF0,extended,32323264 // Samurai's Resists
 patch=1,EE,21C6BCF4,extended,00006432
 patch=1,EE,E0010000,extended,01C6BDB0 // When Sniper is dead
 patch=1,EE,21C6BCF4,extended,00C86432
-patch=1,EE,E0240005,extended,0032EB00 // DOOM CLOCK == 5
+patch=1,EE,E1240005,extended,0032EB00 // DOOM CLOCK == 5
 patch=1,EE,E00B0096,extended,01C6C4EC // Door on Slot 2
 patch=1,EE,E00800F0,extended,01C6C284 // Set HP
 patch=1,EE,21C6C280,extended,000003C0
