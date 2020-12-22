@@ -2224,7 +2224,7 @@ patch=1,EE,11CE004E,extended,0000019A // Gorge, Dark Gem is now Thunder Boost
 patch=1,EE,11CE005A,extended,00000085 // Gorge, Mythril Stone is now Shock Charm+
 patch=1,EE,11CE0066,extended,000000E2 // Elephant Graveyard, Frost Gem is now Secret Ansem's Report 1
 patch=1,EE,11CE0072,extended,0000017D // Elephant Graveyard, Mythril Stone is now Frost Crystal
-patch=1,EE,11CE007E,extended,0000000D // Elephant Graveyard, Bright Stone is now Tourmaline Ring
+patch=1,EE,11CE007E,extended,00000004 // Elephant Graveyard, Bright Stone is now Elixir
 patch=1,EE,11CE008A,extended,00000005 // Elephant Graveyard, AP Boost is now Mega-Potion
 patch=1,EE,11CE0096,extended,00000006 // Elephant Graveyard, Mythril Shard is now Mega-Ether
 patch=1,EE,11CE00A2,extended,0000021F // Pride Rock, Pride Rock Map is now Two Become One
@@ -2262,7 +2262,7 @@ patch=1,EE,21D10BD8,extended,002800AD // Replacement Reward #2:Soldier Earring R
 // Hyenas II
 patch=1,EE,11D10ED2,extended,00000004 // MP:0 HP:4
 patch=1,EE,21D10ED4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10ED8,extended,00000004 // Replacement Reward #2: Replacement Reward #1:Elixir
+patch=1,EE,21D10ED8,extended,0000000D // Replacement Reward #2: Replacement Reward #1:Tourmaline Ring
 // Groundshaker
 patch=1,EE,11D10C12,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10C14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -4459,11 +4459,11 @@ patch=1,EE,21CDF01C,extended,64645A64 // 10% Fire Resist
 patch=1,EE,21CDF020,extended,00646464
 patch=1,EE,11CDDE6E,extended,0000BBF8
 // Tourmaline Ring
-patch=1,EE,11CDF026,extended,0000021E // Damage Control
+patch=1,EE,11CDF026,extended,00000184 // Auto Final
 patch=1,EE,21CDF028,extended,00030000 // +3 DEF
 patch=1,EE,21CDF02C,extended,6464645A // 10% Physical Resist (unlisted)
 patch=1,EE,21CDF030,extended,00646464
-patch=1,EE,11CDDE86,extended,0000CE2E
+patch=1,EE,11CDDE86,extended,0000BBD0
 // Aquamarine Ring
 patch=1,EE,11CDF036,extended,00000199 // Blizzard Boost
 patch=1,EE,21CDF038,extended,00000500 // +5 MAG
