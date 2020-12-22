@@ -18,8 +18,10 @@ patch=1,EE,21D1940A,extended,00000000
 patch=1,EE,21D1940E,extended,00000000
 patch=1,EE,11D19412,extended,00000000
 //Critical Bonus
+patch=1,EE,E007FFFF,extended,0032BAE0
 patch=1,EE,11D18DDC,extended,00000233// Limit Form
 patch=1,EE,11D18DDE,extended,0000008A// Scan
+patch=1,EE,11D18DE0,extended,000001A5// MP Hastera
 patch=1,EE,11D18DE2,extended,00000052// Guard
 patch=1,EE,11D18DE4,extended,0000009E// Aerial Recovery
 patch=1,EE,11D18DE6,extended,00000002// Hi-Potion
