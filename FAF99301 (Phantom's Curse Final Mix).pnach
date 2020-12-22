@@ -3934,10 +3934,13 @@ patch=1,EE,E0021512,extended,0032BAE0
 patch=1,EE,E0010041,extended,0032BAE8
 patch=1,EE,11C4F008,extended,000003E5// Xaldin
 //Xigbar (Normal)
-patch=1,EE,E0030A12,extended,0032BAE0
-patch=1,EE,E0020039,extended,0032BAE8
-patch=1,EE,E0010000,extended,1032F054// When entering a form (can't summon in Xigbar fight)
-patch=1,EE,1032F054,extended,00000300// Summon Stitch instead
+patch=1,EE,E0060A12,extended,0032BAE0
+patch=1,EE,E0050039,extended,0032BAE8
+patch=1,EE,1032F054,extended,00000300// Summon Stitch
+patch=1,EE,21C6C904,extended,45BB8000// Fix Summon Time
+patch=1,EE,21C6C908,extended,45BB8000
+patch=1,EE,0032F05B,extended,0000000A
+patch=1,EE,01C5FFD4,extended,00000000// Fix Main Menu Page I
 //Luxord->Hades Cleanup
 patch=1,EE,E0040965,extended,01CE0B6A
 patch=1,EE,E0030E12,extended,0032BAE0
