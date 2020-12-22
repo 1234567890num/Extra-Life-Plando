@@ -6415,7 +6415,7 @@ patch=1,EE,11D1A330,extended,00000020
 	//}
 
 	//{ Doom Counter == 6
-		patch=1,EE,E00D0006,extended,0032EB00	// IF Doom == 0x06
+		patch=1,EE,E10D0006,extended,0032EB00	// IF Doom == 0x06
 		patch=1,EE,E00C1A04,extended,0032BAE0	// In GoA
 		patch=1,EE,11C5A774,extended,000009C1	// Data Twilight Town Door
 		patch=1,EE,11C5A734,extended,000009C1	// Space Paranoids Door
