@@ -9133,9 +9133,9 @@ patch=1,EE,21C5B71C,extended,42000000
 patch=1,EE,21C5B720,extended,44EAA000
 patch=1,EE,2032BB3C,extended,00002102
 //Free Pass Event 4
-patch=1,EE,E00C2102,extended,0032BAE0
-patch=1,EE,E00B000F,extended,0032BF10
-patch=1,EE,E00A023A,extended,01C5B714
+patch=1,EE,E0182102,extended,0032BAE0
+patch=1,EE,E017000F,extended,0032BF10
+patch=1,EE,E016023A,extended,01C5B714
 patch=1,EE,11C5B7A0,extended,0000004B
 patch=1,EE,11C5B7E0,extended,0000004B
 patch=1,EE,11C5B820,extended,0000004B
@@ -9146,6 +9146,18 @@ patch=1,EE,11C5BAF4,extended,0000004B
 patch=1,EE,11C5BBD0,extended,0000004B
 patch=1,EE,11C5BC10,extended,0000004B
 patch=1,EE,11C5BC50,extended,0000004B
+patch=1,EE,E00B0006,extended,2032EB00 //DOOM CLOCK < 6
+patch=1,EE,E00A0001,extended,0032EB00 //Promise Charm = 1
+patch=1,EE,11C5B7A0,extended,0000013D //Change Bulky Vendors into Creepers
+patch=1,EE,11C5B7E0,extended,0000013D
+patch=1,EE,11C5B820,extended,0000013D
+patch=1,EE,11C5B8FC,extended,0000013D
+patch=1,EE,11C5B9D8,extended,0000013D
+patch=1,EE,11C5BAB4,extended,0000013D
+patch=1,EE,11C5BAF4,extended,0000013D
+patch=1,EE,11C5BBD0,extended,0000013D
+patch=1,EE,11C5BC10,extended,0000013D
+patch=1,EE,11C5BC50,extended,0000013D
 //Free Pass Event Backtrack
 patch=1,EE,E0062002,extended,0032BAE0
 patch=1,EE,E005000F,extended,0032BF10
