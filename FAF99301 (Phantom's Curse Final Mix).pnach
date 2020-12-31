@@ -3287,7 +3287,7 @@ patch=1,EE,E047004F,extended,0032BAE8
 patch=1,EE,2032F078,extended,12120300// Sora and Beast only
 patch=1,EE,11C5A16C,extended,000002CE// Beast (Chandelier)
 patch=1,EE,11C5A4D4,extended,000005F8// Luxord (Dark Thorn)
-patch=1,EE,E001006A,extended,0035DE20// Sorcerer Cutscene Skip
+patch=1,EE,E001006A,extended,0035DE20// Beast Cutscene Skip
 patch=1,EE,0035DE20,extended,0000007A
 patch=1,EE,E10A0000,extended,0032EB00// DOOM CLOCK == 0
 patch=1,EE,E00403ED,extended,01C6C4EC// If Max HP Slot 2 = 1005
