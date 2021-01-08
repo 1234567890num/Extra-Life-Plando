@@ -2,6 +2,6 @@ You awaken in the dead of night from a horrifying nightmare. The dreaded Phantom
 
 Dripping with sweat from the vivid nightmare, you journey forth with memories of past adventures to explore and save these worlds just in case this nightmare was a premonition of things to come...
 
-You better hurry. Time stops for no one. Once an hour has past, the Phantom will begin its curse. As the minute hand reaches 6 or 12, two worlds shall fall to darkness forever and the rest have the foes strengthtened.
+You better hurry. Time stops for no one. Once an hour has past, the Phantom will begin its curse. As the minute hand reaches 6 or 12, two worlds shall fall to darkness forever and the rest have their denizens strengthened.
 
-*Phil wants to remind you that as junior heroes, your training never ends. wisely spend some time to do so as your foes are likely doing the same***
+*Phil wants to remind you that as junior heroes, your training never ends. Wisely spend some time to do so as your foes are likely doing the same.
