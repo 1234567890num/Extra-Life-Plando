@@ -9106,7 +9106,7 @@ patch=1,EE,E0061A04,extended,0032BAE0
 patch=1,EE,E1050000,extended,3032F1E2
 patch=1,EE,E1040000,extended,3032F1E3
 patch=1,EE,E1030000,extended,3032F1E4
-patch=1,EE,E1020001,extended,0032F1C4
+patch=1,EE,E1020000,extended,3032F1C4
 patch=1,EE,11C5A810,extended,00000761
 patch=1,EE,11C5A814,extended,0000001F
 //Free Pass Event 2
