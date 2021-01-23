@@ -3944,8 +3944,8 @@ patch=1,EE,21C6C908,extended,45BB8000
 patch=1,EE,0032F05B,extended,0000000A
 patch=1,EE,01C5FFD4,extended,00000000// Fix Main Menu Page I
 //Luxord->Hades Cleanup
-patch=1,EE,E0040965,extended,01CE0B6A
-patch=1,EE,E1030012,extended,0032BAE0
+patch=1,EE,E0030965,extended,01CE0B6A
+patch=1,EE,E1020012,extended,0032BAE0
 patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
 patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
 //Luxord (Normal)
