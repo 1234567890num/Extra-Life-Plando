@@ -9147,7 +9147,7 @@ patch=1,EE,11C5BBD0,extended,0000004B
 patch=1,EE,11C5BC10,extended,0000004B
 patch=1,EE,11C5BC50,extended,0000004B
 patch=1,EE,E00B0006,extended,2032EB00 //DOOM CLOCK < 6
-patch=1,EE,E00A0001,extended,0032EB00 //Promise Charm = 1
+patch=1,EE,E00A0001,extended,0032F1C4 //Promise Charm = 1
 patch=1,EE,11C5B7A0,extended,0000013D //Change Bulky Vendors into Creepers
 patch=1,EE,11C5B7E0,extended,0000013D
 patch=1,EE,11C5B820,extended,0000013D
